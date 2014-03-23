@@ -210,13 +210,12 @@ width:1024px;
 
 /* Main global 'theme' and typographic styles */
 body {
-	background: #f1f1f1;
-        background: url("images/bg.jpg") repeat scroll center top transparent;
+        background: #000 url('images/bg_3_new_web.jpg') no-repeat right top; margin:0px; padding:0px;
 }
 body,
 input,
 textarea {
-	color: #666;
+	color: #EED2FD;
 	font-size: 12px;
 	line-height: 18px;
 }
@@ -323,14 +322,14 @@ textarea {
 	padding: 2px;
 }
 a:link {
-	color: #0066cc;
+	color: #E9E9E9;
 }
 a:visited {
-	color: #743399;
+	color: #E9E9E9;
 }
 a:active,
 a:hover {
-	color: #ff4b33;
+	color: #E089E4;
 }
 
 /* Text meant only for screen readers */
@@ -345,7 +344,7 @@ a:hover {
 
 #header {
 	padding: 0px 0 0 0;
-        height: 328px;
+        height: 400px;
 }
 
 .header_bot{
@@ -393,9 +392,10 @@ a:hover {
 	margin: 0 auto;
         padding-top: 0px;
 	width: 1024px;
-        height: 45px;
+        height: 40px;
         top: 0px;
         position: absolute;
+        background-color: #e9e9e9;
 }
 #access .menu-header,
 div.menu {
@@ -557,7 +557,7 @@ div.menu li {
 }
 #content tr th,
 #content thead th {
-	color: #888;
+	color: #5060A2;
 	font-size: 12px;
 	font-weight: bold;
 	line-height: 18px;
@@ -596,7 +596,7 @@ div.menu li {
 }
 .page-title a:link,
 .page-title a:visited {
-	color: #888;
+	color: #5060A2;
 	text-decoration: none;
 }
 .page-title a:active,
@@ -620,7 +620,7 @@ div.menu li {
 	color: #ff4b33;
 }
 .entry-meta {
-	color: #888;
+	color: #5060A2;
 	font-size: 12px;
 }
 .entry-meta abbr,
@@ -635,7 +635,7 @@ div.menu li {
 .entry-summary {
 	clear: both;
 	padding: 2px 0 0 0;
-background:url("images/box3-bg.png") repeat scroll left top transparent;
+background:url("images/box3-bg_blu3.png") repeat scroll left top transparent;
 padding-left: 8px;
 padding-right: 8px;
 width: 684px;
@@ -645,7 +645,7 @@ display: inline-block;
 .xoxo {
     padding-left: 5px;
     padding-right: 5px;
-    background:url("images/box3-bg.png") repeat scroll left top transparent;
+    background:url("images/box3-bg_blu3.png") repeat scroll left top transparent;
     
 }
 
@@ -656,21 +656,21 @@ display: inline-block;
 }
 
 .box3-top {
-    background:url("images/box3-top.png") no-repeat scroll left top transparent;
+    background:url("images/box3-top_blu3.png") no-repeat scroll left top transparent;
     font-size:1px;
     height:6px;
     width:700px;
 }
 
 .box3-top-sidebar {
-    background:url("images/box3-top.png") no-repeat scroll left top transparent;
+    background:url("images/box3-top_blu3.png") no-repeat scroll left top transparent;
     font-size:1px;
     height:6px;
     width:700px;
 }
 
 .box3-bot {
-    background:url("images/box3-bot.png") no-repeat scroll left top transparent;
+    background:url("images/box3-bot_blu3.png") no-repeat scroll left top transparent;
     font-size:1px;
     height:6px;
     margin-bottom:5px;
@@ -680,16 +680,16 @@ display: inline-block;
 
 
 .box3-bot_home{
-    background:url("images/box3-bot.png") no-repeat scroll left top transparent;
+    background:url("images/box3-bot_blu3.png") no-repeat scroll left top transparent;
     font-size:1px;
     height:6px;
     margin-bottom:5px;
     width:700px;
     position: relative;
-    bottom: 5px;
+    bottom: 4px;
 }
 .box3-bot-sidebar {
-    background:url("images/box3-bot.png") no-repeat scroll left top transparent;
+    background:url("images/box3-bot_blu3.png") no-repeat scroll left top transparent;
     font-size:1px;
     height:6px;
     margin-bottom:5px;
@@ -718,7 +718,7 @@ display: inline-block;
 	margin-right: 24px;
 }
 .entry-content label {
-	color: #888;
+	color: #5060A2;
 	font-size: 12px;
 }
 .entry-content select {
@@ -797,13 +797,13 @@ body.page .edit-link {
 }
 .entry-utility {
 	clear: both;
-	color: #888;
+	color: #5060A2;
 	font-size: 12px;
 	line-height: 18px;
 }
 .entry-meta a,
 .entry-utility a {
-	color: #888;
+	color: #5060A2;
 }
 .entry-meta a:hover,
 .entry-utility a:hover {
@@ -913,7 +913,7 @@ body.page .edit-link {
 	margin: 5px 5px 0;
 }
 #content .wp-caption p.wp-caption-text {
-	color: #888;
+	color: #5060A2;
 	font-size: 12px;
 	margin: 5px;
 }
@@ -933,7 +933,7 @@ body.page .edit-link {
 	border: 2px solid #cfcfcf;
 }
 #content .gallery .gallery-caption {
-	color: #888;
+	color: #5060A2;
 	font-size: 12px;
 	margin: 0 0 12px;
 }
@@ -956,14 +956,14 @@ body.page .edit-link {
 -------------------------------------------------------------- */
 
 .navigation {
-	color: #888;
+	color: #5060A2;
 	font-size: 14px;
 	line-height: 24px;
 	overflow: hidden;
 }
 .navigation a:link,
 .navigation a:visited {
-	color: #888;
+	color: #5060A2;
 	text-decoration: none;
 }
 .navigation a:active,
@@ -1061,7 +1061,7 @@ h3#comments-title {
 }
 .comment-meta a:link,
 .comment-meta a:visited {
-	color: #888;
+	color: #5060A2;
 	text-decoration: none;
 }
 .comment-meta a:active,
@@ -1078,7 +1078,7 @@ h3#comments-title {
 }
 .reply a,
 a.comment-edit-link {
-	color: #888;
+	color: #5060A2;
 }
 .reply a:hover,
 a.comment-edit-link:hover {
@@ -1105,7 +1105,7 @@ a.comment-edit-link:hover {
 	margin-top: -6px;
 }
 #comments .pingback p {
-	color: #888;
+	color: #5060A2;
 	display: block;
 	font-size: 12px;
 	line-height: 18px;
@@ -1157,7 +1157,7 @@ h3#reply-title {
 	font-weight: bold;
 }
 #respond label {
-	color: #888;
+	color: #5060A2;
 	font-size: 12px;
 }
 #respond input {
@@ -1168,7 +1168,7 @@ h3#reply-title {
 	width: 98%;
 }
 #respond .form-allowed-tags {
-	color: #888;
+	color: #5060A2;
 	font-size: 12px;
 	line-height: 18px;
 }
