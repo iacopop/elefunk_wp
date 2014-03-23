@@ -1,0 +1,73 @@
+body {
+	background:transparent url(fresh/bg.gif) repeat-x scroll 0 0 !important;
+	background-color:#ebe9e1 !important;
+}
+
+#contentWrap {
+	background:transparent url(fresh/bg-rounded-double.gif) no-repeat scroll 0 bottom !important;
+}
+
+#header {
+	background:transparent url(fresh/bg-header.jpg) no-repeat scroll 0 0 !important;
+}
+
+a, a:link, a:visited {
+	color:#24251d;
+}
+
+a:hover, a:active, a.active {
+	color:#5b4826s;
+}
+
+ul.sf-menu li.page_item a:hover, ul.sf-menu li.page_item.current_page_item a {
+	color:#c19c67;
+}
+
+#home #header {
+	background:transparent url(fresh/bg-header-home.jpg) no-repeat scroll 0 0 !important;
+}
+
+#home #header ul#featuredNav li a {
+	background-color:#24251d;
+	border-color:#000000;
+	color:#FFFFFF;
+}
+
+#home #header ul#featuredNav li a:hover {
+	border-color:#ebe9e1;
+}
+
+ul#showcase li a:hover, ul#showcase li a.active {
+	border:1px solid #785d34;
+}
+
+#footer {
+	background:transparent url(../images/bg-content.png) repeat-y scroll 0 0 !important;
+}
+
+#footerWrap {
+	background:transparent url(fresh/bg-rounded-bottom.gif) no-repeat scroll 0 bottom !important;
+}
+
+#footerWrap ul li.clickready.hover {
+	border: 1px solid #cccccc;
+}
+
+#footerWrap ul li a:hover, #wp-calendar caption {
+	background: #24251d;
+	color: #fff;
+}
+
+#footerWrap ul li, #wp-calendar {
+	background-color: #eeeeee;
+	border: 1px solid #dddddd;
+	color:#333333;
+}
+
+.credits {
+	color:#333333 !important;
+}
+
+.credits a {
+	color:#000000 !important;
+}

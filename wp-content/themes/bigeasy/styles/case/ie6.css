@@ -1,0 +1,26 @@
+/*
+-----------------------------------------------
+"case" theme styles for ie6
+author: dan rubin
+edited: 2009-04-21
+----------------------------------------------- */
+
+/* top border and shadow */
+#wrapper {
+	background-image:url(bg-wrapper-ie6.png);
+}
+/* bottom border and shadow */
+#wrapper2 {
+	background-image:url(bg-wrapper2-ie6.png);
+}
+#container {
+    background:transparent;
+    top:0;
+    margin-bottom:-40px;
+}
+#sidebar .module {
+	border-color:#c97d4c;
+}
+#sidebar .module h2.module-title {
+	color:#c97d4c;
+}

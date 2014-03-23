@@ -1,0 +1,76 @@
+*** Productum Changelog ***
+
+2009.08.06 - version 2.0.0
+  * /functions/ - New WooThemes Framework (V1.0.4) (core theme functions)
+     functions.php
+  * includes/theme-comments.php - Moved from /functions/
+     includes/theme-functions.php
+     includes/theme-js.php
+     includes/theme-options.php
+     includes/theme-widgets.php
+     includes/sidebar-init.php
+  * includes/theme-options.php - Added new general options
+  * archive.php - Fixed checkbox options ( $var == 'true' instead of just $var )
+    header.php
+    index.php
+    sidebar-2.php
+
+2009.06.17 - version 1.1.4
+ * /inlcudes/widgets.php - Fix on Feedburner Subscription Widget
+
+2009.06.12 - version 1.1.3
+ * styles/fresh_red/bg-header.jpg - replaced incorrect blue header image with red one.
+2009.06.11 - version 1.1.2
+ * functions.php - Upgrade (get_categories fix)
+ *  /includes/category_carousel.php
+
+2009.05.07 - version 1.1.1
+	* functions/admin-setup - Removed pagenavi plugin
+	* style.css - change styling for /* Pagination */ section
+	* archive.php - change more_entries div
+	* search.php
+
+2009.04.21 - version 1.1.0
+	* page.php - Added an entry.div around the content() so that bullets are styled correctly
+
+2009.03.24 - version 1.0.9
+	* includes/widgets.php - Recent Posts widget bug fix to display latest blog category posts
+
+2009.03.20 - version 1.0.8
+	* sidebar-home.php - Added clearfix div for alignment issues in recent posts
+
+2009.03.17 - version 1.0.7
+	* footer.php - fixed bug for image switcher
+	* functions/admin-js.php - Added conditional js loader
+
+2009.03.12 - version 1.0.6
+	* 404.php - removed duplicated 	"contentWrap" div
+
+2009.03.12 - version 1.0.5
+	* functions/admin-options.php - updated wp_pagenavi()
+	* style.css - updated /* Pagination */
+
+2009.03.12 - version 1.0.4
+	* includes/js/setup.imgswitch.js - Added link-outs to the featured image on the home page
+	* index.php - edited showcase section
+	* header.php - edited featuredimg section
+	* functions/admin-options.php - home page featured image options
+
+2009.03.11 - version 1.0.3
+	* added three new styles
+	* styles/fresh_red + fresh_red.css
+	* styles/fresh_blue + fresh_blue.css
+	* styles/fresh_brown + fresh_brown.css
+
+2009.03.11 - version 1.0.2
+	* search.php - added page navigation
+
+2009.03.10 - version 1.0.1
+  	* search.php - Fixed looping bug and added validation for if no posts
+  	* functions/admin-options.php - Added theme option to enable/disable image resizer script
+ 	* sidebar-2.php - Added option to include most commented widget
+ 	* includes/widgets.php - removed old popular posts widget
+ 	* includes/popular.php - new file
+
+2009.03.10 - version 1.0.0
+  * First release!

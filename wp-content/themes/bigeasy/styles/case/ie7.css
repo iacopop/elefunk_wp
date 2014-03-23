@@ -1,0 +1,32 @@
+/*
+-----------------------------------------------
+"case" theme styles for ie7 and below
+author: dan rubin
+edited: 2009-04-22
+----------------------------------------------- */
+
+#container {
+    top:-48px;
+    margin-bottom:-90px;
+}
+#sidebar .module h2.module-title {
+	color:#935530;
+}
+#content .module h2.module-title {
+	color:#c47a4b;
+}
+#bookmarks li a {
+	background-color:#371309;
+}
+#bookmarks li a:hover {
+	background-color:#1f0b05;
+}
+#categories li a {
+	background-color:#2e170d;
+}
+#categories li a:hover {
+	background-color:#241108;
+}
+#content .module blockquote {
+	background-color:#a06438;
+}

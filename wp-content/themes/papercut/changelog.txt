@@ -1,0 +1,62 @@
+*** Paper Cut Changelog ***
+
+2009.08.06 - version 2.0.0
+  * /functions/ - New WooThemes Framework (V1.0.4) (core theme functions)
+     functions.php
+  * includes/theme-comments.php - Moved from /functions/
+     includes/theme-functions.php
+     includes/theme-js.php
+     includes/theme-options.php
+     includes/theme-widgets.php
+     includes/sidebar-init.php
+  * includes/theme-options.php - Added new general & dynamic images options
+  * archive.php - Fixed checkbox options ( $var == 'true' instead of just $var )
+    single.php
+    imagegallery.php
+    index.php
+  * header.php - Removed PHP function includes (included via framework now)
+
+2009.06.11 - version 1.2.2
+ * functions.php - Upgrade (get_category fix)
+ * functions.php - Added missing include of widgets.php
+
+2008.12.30 - version 1.2.1
+	* style.php - Nested comments with indentation for WP 2.7
+	  comments.php
+	  comments-legacy.php
+	  header.php
+
+2008.12.29 - version 1.2
+	* comments.php - Threaded comments
+	  comments-legacy.php
+	  style.css (.commentlist .children, #respond)
+	  functions.php (functions at end of file)
+	  header.php (1 line above wp_head())
+
+2008.11.26 - version 1.1.2
+  * sidebar.php - fixed bug for 125x125 ads block (when widget is not used)
+
+2008.11.14 - version 1.1.1
+  * comments.php - fixed layout issue when not logged in
+
+2008.10.22 - version 1.1.0
+  * thumb.php - new version
+
+2008.10.09 - version 1.0.6
+  * functions/custom.php - Fixed bug with update of custom fields
+
+2008.10.02 - version 1.0.5
+  * functions.php - Changed post_title to post_name
+
+2008.09.04 - version 1.0.4 (only updated to svn)
+  * sitemap.php - fixed wp_list_pages
+
+2008.09.02 - Version 1.0.3
+  * functions.php - Fixed archives variable name
+  * index.php - Archive variable with page ID
+
+2008.08.25 - Version 1.0.2
+  * search.php - Removed code to make it work properly
+
+2008.08.21 - Version 1.0.1
+  * functions.php - Fixed default settings

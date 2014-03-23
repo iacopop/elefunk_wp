@@ -1,0 +1,18 @@
+/*
+-----------------------------------------------
+styles for ie
+author: dan rubin
+edited: 2009-04-07
+----------------------------------------------- */
+
+.portfolio-title,
+#portfolio.casestudy .portfolio-zoom {
+    left:0;
+    bottom:-20px;
+    cursor:pointer;
+}
+.portfolio-readmore {
+    right:-10px;
+    bottom:-10px;
+    cursor:pointer;
+}

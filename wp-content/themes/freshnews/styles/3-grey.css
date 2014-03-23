@@ -1,0 +1,24 @@
+a { color: #e8a02c; }
+a:hover{ color: #e8a02c; }
+
+body{ background: #f6f6f6 url(grey/bgr.jpg) repeat-x top; }
+#header h1 { background: url(grey/logo-trans.png) no-repeat; }
+#search{ background: url(grey/bgr-search.gif) no-repeat; }
+
+#topmenu li{ border-left: 1px solid #777777; }
+#topmenu li a {	color: #ffffff; }
+#topmenu li a:hover,#topmenu li.active a { color: #FFFFFF; background:#262626; }
+#nav li ul li { background: #404040; border-bottom:1px solid #777777; border-left:1px solid #777777; border-right:1px solid #777777; }
+
+#footer { background:#e4e2db url(grey/bgr-footer.gif) repeat-x; }	
+#footer, #footer a{	color: #cccccc; }
+
+.box, .widget {	background: #FFFFFF url(../images/bgr-box-trans.png) repeat-x top left; }
+.box2 {	background: #ffffff url(../images/bgr-box-trans.png) repeat-x top left; }
+.box2 .spacer.white, .list2 li { background: #f5f5f5; }
+
+.vidtabs .idTabs li a, .idTabs li a { background:#ffffff; color:#363636; }
+.vidtabs .idTabs li a:hover, .vidtabs .idTabs .selected, .idTabs li a:hover, .idTabs .selected, #sidebar h3 { background:#f5f5f5; }
+
+span.continue-archives a { color:#777777; }
+

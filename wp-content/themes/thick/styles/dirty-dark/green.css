@@ -1,0 +1,96 @@
+/* COLOURS
+
+#73a336 - Light
+#5b862c - Dark
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+/* @group nav */
+
+/* NAV
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+#header #nav li a:link, #header #nav li a:visited, #header #nav li a:active {
+	color: #1b1b19;
+	background: #73a336 url("../../styles/dirty-dark/images/green/nav.gif") repeat 50% 0;
+}
+
+#header #nav li a:hover {
+	background: #5b862c url("../../styles/dirty-dark/images/green/nav.gif") repeat 50% 50%;
+}
+
+#header-alt #nav li.current_page_item a:link, #header-alt #nav li.current_page_item a:visited, #header-alt #nav li.current_page_item a:active, #header-alt #nav li.current_page_item a:hover {
+	background: url("../../styles/dirty-dark/images/green/category-bg.jpg") no-repeat 50% 50%;
+}
+
+#header-alt #photos h2 {
+	color: #5b862c;
+}
+
+#header #status strong {
+	color: #5b862c;
+}
+
+/* @end */
+
+/* @group content */
+
+/* CONTENT
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+.content h2 {
+	color: #73a336;
+}
+
+.content h2 a:link, .content h2 a:visited, .content h2 a:active {
+	color: #73a336;
+}
+
+.content h2 a:hover {
+	color: #fbf7e4;
+}
+
+.content h2.heading {
+	color: #1b1b19;
+	background: url("../../styles/dirty-dark/images/green/heading-bg.jpg") no-repeat 0 0;
+}
+
+.content h3 a:link, .content h3 a:visited, .content h3 a:active {
+	color: #5b862c;
+}
+
+.content #comments h2.heading, .content #comment-form h2.heading {
+	background: url("../../styles/dirty-dark/images/green/heading-comments-bg.jpg") no-repeat 0 0;
+}
+
+/* @end */
+
+/* @group sidebars */
+
+/* SIDEBARS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+#categories li.current_page_item-cat {
+	color: #c4e09a;
+	background: url("../../styles/dirty-dark/images/green/category-bg.jpg") no-repeat 0 0;
+}
+
+#leftbar .widget h2 {
+	color: #1b1b19;
+	background: url("../../styles/dirty-dark/images/green/heading-leftbar-bg.jpg") no-repeat 0 0;
+}
+
+#sidebar .widget h2, #header .widget h2 {
+	color: #1b1b19;
+	background: url("../../styles/dirty-dark/images/green/heading-sidebar-bg.jpg") no-repeat 0 0;
+}
+
+#media-widget.widget h2.selected, #media-widget.widget h2.selected:hover {
+	color: #1b1b19;
+}
+
+#media-widget.widget h2 {
+	color: #c4e09a;
+}
+
+/* @end */

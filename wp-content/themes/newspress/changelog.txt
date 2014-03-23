@@ -1,0 +1,78 @@
+*** NewsPress Changelog ***
+
+2009.07.03 - version 1.3.2
+    * includes/js/ - jquery-1.3.1.1.min.js deleted
+    * includes/js/ - jquery-1.2.1.min.js deleted
+    * includes/js/ - jquery-1.3.2.min.js ADDED
+	* header.php - Added call for new jQuery file
+	* footer.php - Removed call for old jQuery file
+
+2009.06.11 - version 1.3.1
+    * functions.php - Updated (get_categories bug)
+    * header.php - added scripts
+  * /includes/js/jquery.bgiframe.min.js - added
+  * /includes/js/superfish.js - update   
+  * /includes/js/tabs.js - update   
+
+2008.12.31 - version 1.3
+	* comments.php - Threaded comment support WP 2.7
+	  comments-legacy.php
+	  functions.php
+	  header.php ( wp_enqueue_script( 'comment-reply' ) )
+	  style.css ( /*========= THREADED COMMENTS =========* )
+
+2008.10.014 - version 1.1.7
+  * functions.php - Option to disable image resizer
+  * layouts/*.php - Option to disable image resizer
+  * archive.php - Option to disable image resizer
+  * imagegallery.php - Option to disable image resizer
+  * search.php - Option to disable image resizer
+  * tag.php - Option to disable image resizer
+  * includes/featured.php - Option to disable image resizer
+
+2008.10.09 - version 1.1.6
+  * functions/custom.php - Fixed bug with update of custom fields
+
+2008.10.02 - version 1.1.5
+  * functions.php - Changed post_title to post_name
+
+2008.09.24 - version 1.1.4
+  * sitemap.php - fixed template tags
+
+2008.09.04 - version 1.1.3
+  * sitemap.php - fixed wp_list_pages
+  * header.php - fixed wp_list_pages
+
+2008.09.02 - Version 1.1.2
+  * functions.php - Fixed archives variable name
+  * includes/version.php - Archive variable with page ID 
+  * layouts/default.php - Archive variable with page ID
+
+2008.08.21 - Version 1.1.1
+  * functions.php - Changed default value on options
+
+2008.08.07 - Version 1.1
+
+  * changelog.txt - Added changelog and revised version number
+  * includes/easytube.php - Added easytube integrated
+  * includes/test.php - Added phpinfo() file for debugging resizer on buggy hosts
+  * includes/popular.php - Display popular posts in sidebar.php
+  * includes/comments.php - Display recent comments in sidebarh.php
+  * functions/custom.php - Custom settings panel in WP post window
+  * sidebar.php - Changed tabs to use popular.php and comments.php
+  * sidebar.php - Changed flickr script
+  * style.css - Fix float on .flicrk img
+  * header.php - fixed <? to <?php 
+  * includes/featured.php - #featureditem -> .featureditem
+  * style.css - #featureditem -> .featureditem
+  * style.css - fixes list1 styling
+  * header.php - Added depth=1 to top page menu
+  * includes/ads-management.php - Fixed randomizer
+  * footer.php - Stripslashes on google analytics
+  * footer.php - WooThemes credit logo
+  * screenshot.png - New screenshot  
+  * functions.php - .mainrow border-bottom: 1px solid #D4E9FA !important;
+  * functions.php - Added flickr options
+  * functions.php - Added pages dropdown to archive
+  * functions.php - Fixed google analytics slashes when saving
+  * functions.php - No <br/> before description of checkboxes

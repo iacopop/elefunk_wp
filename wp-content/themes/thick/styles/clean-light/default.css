@@ -1,0 +1,80 @@
+/* COLOURS
+
+#45453f - Light
+#30302c - Dark
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+/* @group nav */
+
+/* NAV
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+#header #nav li a:link, #header #nav li a:visited, #header #nav li a:active {
+	background: #30302c;
+}
+
+#header #nav li a:hover {
+	background: #262622;
+}
+
+#header-alt #nav li.current_page_item a:link, #header-alt #nav li.current_page_item a:visited, #header-alt #nav li.current_page_item a:active, #header-alt #nav li.current_page_item a:hover {
+	background: #53534c;
+}
+
+#header-alt #photos h2 {
+	color: #30302c;
+}
+
+#header #status strong {
+	color: #30302c;
+}
+
+/* @end */
+
+/* @group content */
+
+/* CONTENT
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+.content h2 {
+	color: #30302c;
+}
+
+.content h2 a:link, .content h2 a:visited, .content h2 a:active {
+	color: #30302c;
+}
+
+.content h2 a:hover {
+	color: #1b1b19;
+}
+
+.content h2.heading {
+	background: #45453f url("../../styles/clean-light/images/default/heading-bg.jpg") repeat-x 0 100%;
+}
+
+.content h3 a:link, .content h3 a:visited, .content h3 a:active {
+	color: #30302c;
+}
+
+/* @end */
+
+/* @group sidebars */
+
+/* SIDEBARS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+#categories li.current_page_item-cat {
+	color: #c1c1b7;
+	background: #45453f url("../../styles/clean-light/images/default/category-bg.jpg") repeat-x 0 100%;
+}
+
+.widget h2 {
+	background: #45453f url("../../styles/clean-light/images/default/heading-sidebar-bg.jpg") repeat-x 0 100%;
+}
+
+#media-widget.widget h2 {
+	color: #c1c1b7;
+}
+
+/* @end */

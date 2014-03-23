@@ -1,0 +1,8 @@
+/* darkgreen style */
+
+body { background: url(darkgreen/bg-tile.jpg) repeat top center; }
+#wrap {	background: url(darkgreen/bg.jpg) repeat-x top center; }
+a { color: #89bc70; }
+#archive .box2 .post-details, #main p.post-details, #comments ol.commentlist .comment-meta a {color:#86947c;}
+#bottom .subscribe .rss { background: url(darkgreen/ico-subscribe.png) no-repeat center left; }
+#bottom #recentcomments li { background:transparent url(darkgreen/ico-comment.png) no-repeat scroll left center; }

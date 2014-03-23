@@ -1,0 +1,26 @@
+/*  green style */
+
+/*  Images */
+body.wootube { 
+	background: #e7eadc url(green/bg.gif) repeat-x 0 0;
+}
+
+/*  Colors */
+a {
+	color: #497029;
+}
+#main, #sidebar ul, #sidebar .textwidget, div#video-browser-holder{
+	border:5px solid #d7e2d4;
+}
+#sidebar h2 {
+	background: #6B882C;
+}
+#main-content .post h4.continue a {
+	background: #668d46;
+}
+#footer-out {
+	background: #416134;
+}
+
+
+

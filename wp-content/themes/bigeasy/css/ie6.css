@@ -1,0 +1,49 @@
+/*
+-----------------------------------------------
+styles for ie6
+author: dan rubin
+edited: 2009-04-21
+----------------------------------------------- */
+
+/* top border and shadow */
+#wrapper {
+	background-image:none;
+}
+/* bottom border and shadow */
+#wrapper2 {
+	background-image:none;
+}
+#shadow-left,
+#shadow-right {
+	display:none;
+}
+#sidebar-border {
+    display:none;
+}
+#content ol.commentlist li.comment ul.children {
+    background:transparent;
+}
+#bookmarks li a:hover,
+#categories li a:hover {
+    background-image:none;
+}
+#twitter {
+    background-image:none;
+    border-top:none;
+}
+#footer {
+    margin-bottom:-52px;
+}
+#poweredby-woothemes {
+	padding-right:0;
+}
+#poweredby-woothemes strong {
+    text-indent:0;
+    background-image:none;
+    display:inline;
+	position:relative;
+	top:0;
+	right:0;
+	width:auto;
+	height:auto;
+}

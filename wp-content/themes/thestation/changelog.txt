@@ -1,0 +1,177 @@
+*** The Station Changelog ***
+
+2008.07.27 - version 1.3.1
+  * /functions/ - Core framework upgrade to V.1.0.4
+  * /includes/theme-options.php - Added Custom CSS backend option
+
+2008.07.14 - version 1.3
+  * /functions/ - Core upgrade to V.1.0.2
+  * /includes/js/slider.js *ADDED* - Workaround for slider JS output in header. Made static.
+  * /includes/featured-page-slider.php - Added buttons to HTML
+  * /includes/featured-post-slider.php - Added buttons to HTML
+  * /includes/theme-functions.php - Removed JS from theme header.
+  * /includes/theme-js.php - Added slider.js & added is_home conditionals.
+  * /includes/theme-options - Fix on Manual URL
+  * /style.css - Corrected validation on elements
+  * REMOVED /includes/js/slider.js.php 
+
+2008.06.30 - version 1.2.8
+  * /includes/theme-functions.php - Enabled 3rd-level support for sub-navigation function
+  * style.css - tweaked padding & removed fixed height on .widget ul li a:link, .widget ul li a:visited
+
+2008.06.29 - version 1.2.7
+  * style.css - Added 'zoom: 1' to #sub_nav ul li ul li to fix subnav icon bug
+
+2008.06.23 - version 1.2.6
+  * /includes/js/slider.js.php - Jquery upgrade bug fix
+  * /includes/featured-page-slider.php - ID to Class convertion
+  * /includes/featured-post-slider.php - ID to Class convertion 
+
+2008.06.16 - version 1.2.5
+  * /functions/ - Core Update
+  * /includes/theme-options.php - Copy adjust
+
+2008.06.15 - version 1.2.4
+  * /functions/ - Core Update
+  * /includes/js/slider.js.php - Update
+  * /includes/theme-functions.php
+  * /includes/theme-options.php
+
+2008.06.08 - version 1.2.3
+  * ie6.css - Fixed drop-down menus for IE6
+
+2008.06.08 - version 1.2.2
+  * style.css - Fixed IE7 drop-down bug
+  * ie7.css - Added styles to fix IE7 drop-down bug
+
+2008.06.05 - version 1.2.1
+  * /functions/ - Core Update (auto save bug)
+
+2008.06.03 - version 1.2
+  * /functions/ - Core Update
+  * /includes/ad-468x60.php - checkbox fix
+  * /includes/layout-default.php - checkbox fix
+  * /includes/layout-magazine.php - checkbox fix
+  * /includes/theme-functions.php - checkbox fix on page exclude functions
+  * /includes/theme-options.php
+  * /includes/theme-js.php  - checkbox fix
+  * /includes/theme-widgets.php - checkbox fix
+  * /404.php - checkbox fix
+  * /archive.php - checkbox fix
+  * /footer.php - checkbox fix
+  * /page.php - checkbox fix
+  * /single.php - checkbox fix
+  * /template-archives.php - checkbox fix
+  * /template-full.php - checkbox fix
+  * /template-sitemap.php - checkbox fix
+
+2008.06.02 - version 1.1.1
+  * /functions/ - Core Update
+  * /includes/theme-options.php -  Changes to nested inputs, added custom favicon option and copy reviews
+
+2008.05.18 - version 1.1.0
+  * /functions/ - New WooThemes Framework (core theme functions)
+     functions.php
+  * archive.php - Embedded woo_get_image for each post
+     search.php
+  * style.css - Added styling for new featured slider (lines 260 - 310)
+    	- Added styling for new alternate homepage layout (lines 994 - 1163)
+	- Added styling for new video widget (lines 871 - 884)
+	- Changed drop-down styling to support more levels (lines 134 - 169)
+  * index.php - Ability to change between default & magazine layout
+  * img/ - Added thumb.jpg, video.jpg, minithumb.jpg, sliderimage.jpg, bigad.jpg for development**
+  * img/ - Added 'sliderarrow_left.png' & 'sliderarrow_right.png' for new featured slider
+  * includes/featured-post-slider.php - New
+  * includes/featured-page-slider.php - New  
+  * includes/layout-default.php - Contains the body content of previous index.php
+  * includes/layout-magazine.php - New
+  * includes/ad-468x60.php - New  
+  * includes/featured-tabs.php - Added '<div class="entry">' around featured tabber text.
+  * includes/sidebar-init.php - Added additional homepage sidebar (for magazine layout)
+  * includes/test.php - Moved from /functions/
+     includes/theme-comments.php
+     includes/theme-functions.php
+     includes/theme-js.php
+     includes/theme-options.php
+     includes/theme-widgets.php
+  * includes/theme-options.php - Added new options for magazine layout, featured post / page slider, 468x60 ad & ability to force include some pages in top navigation
+  * includes/theme-widgets.php - Added 125x125 Ad Widget & Video Player Widget
+  * includes/js/jquery.localscroll.js - Added jQuery for featured slider
+     includes/jquery.scrollTo-1.4.1.js
+     includes/jquery.serialScroll-1.2.1.js
+     includes/slider.js
+  * styles/*.css - Added '#recent_articles h2.heading, #more_articles h2.heading' for headings on new alternate homepage layout
+
+2008.05.11 - version 1.0.15
+  * 404.php - fixed 404 error page template
+
+2008.05.05 - version 1.0.14
+  * header.php - fixed logo validation error
+
+2008.04.28 - version 1.0.13
+  * style.css - added #featured .information list CSS styles
+
+2008.04.24 - version 1.0.12
+  * style.css - Changed logo to be an html image instead of CSS
+  * header.css - Added <img> for logo
+  * styles/blueorange.css - Removed CSS for the logo
+  * styles/creamlime.css - Removed CSS for the logo
+  * styles/default.css - Removed CSS for the logo
+  * styles/grey_yellow.css - Removed CSS for the logo
+  * styles/greymaroon.css - Removed CSS for the logo
+  * styles/minimal.css - Removed CSS for the logo
+  * styles/orangebrown.css - Removed CSS for the logo
+  * styles/purplegrey.css - Removed CSS for the logo
+  * styles/blueorange/ - Deleted logo.jpg
+  * styles/creamlime/ - Deleted logo.jpg
+  * styles/default/ - Deleted logo.jpg
+  * styles/grey_yellow/ - Deleted logo.jpg
+  * styles/greymaroon/ - Deleted logo.jpg
+  * styles/minimal/ - Deleted logo.jpg
+  * styles/orangebrown/ - Deleted logo.jpg
+  * styles/purplegrey/ - Deleted logo.jpg
+  * includes/js/ - Added pngfix.js
+  * img/ - Added logo.png
+  * functions/admin-setup.php - moved custom logo function to header.php
+  * header.php
+
+2008.04.20 - version 1.0.11
+  * includes/widgets.php - Added checkbox for google feedburner widget
+
+2008.04.20 - version 1.0.10
+  * includes/widgets.php - Fix on "news widget".
+
+2008.04.16 - version 1.0.9
+  * includes/widgets.php - Fix on "news widget".
+
+2008.04.14 - version 1.0.8
+  * includes/widgets.php - Fix on "news widget" in reguards to the correct author link.
+
+2008.04.07 - version 1.0.7
+  * style.css - Added default image alignment classes
+
+2008.04.06 - version 1.0.6
+  * /functions/admin-setup.php - Fixed DB query for page parent function (secondary navigation)
+
+2008.04.01 - version 1.0.5
+  * style.css - added clear: both to #form_wrap
+
+2008.04.01 - version 1.0.4
+  * /includes/featured-tabs.php - Moved <div class="feat-button"> inside if loop
+
+2008.03.31 - version 1.0.3
+  * header.php - removed duplicate style.css load
+  * admin-setup.php - fixed header style input bug
+
+2008.03.30 - version 1.0.2
+  * custom.css - added a custom CSS file
+  * style.css - added import of custom.css
+
+2008.03.26 - version 1.0.1
+  * functions.php - removed suckerfish.js load
+  * /includes/js/ - deleted suckerfish.js
+  * style.css - fixed News Widget RSS icon
+  * ie6.css - fixed submit buttons dropping below input fields
+  
+2008.03.26 - version 1.0.0
+  * First release!

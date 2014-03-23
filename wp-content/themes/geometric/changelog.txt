@@ -1,0 +1,49 @@
+*** Geometric Changelog ***
+
+2009.07.29 - version 2.0.0
+  * /functions/ - New WooThemes Framework (V1.0.4) (core theme functions)
+     functions.php
+  * includes/sidebar-init.php - Added additional homepage sidebar (for magazine layout)
+  * includes/theme-comments.php - Moved from /functions/
+     includes/theme-functions.php
+     includes/theme-js.php
+     includes/theme-options.php
+     includes/theme-widgets.php
+  * includes/theme-options.php - Added new options for navigation and tweaked some older options
+  * header.php - Tweaked page navigation
+
+2009.06.30 - version 1.1.5
+ * /functions/admin-options.php
+ * /functions/custom.php
+ * functions.php
+
+2009.06.11 - version 1.1.4
+ * functions.php - Upgrade (get_categories fix)
+ 
+2009.02.26 - version 1.1.3
+ * single.php - Fixed IE7 bug
+
+2009.01.28 - version 1.1.2
+ * comments-legacy.php - Fixed comment response form for WP < 2.7
+
+2009.01.14 - version 1.1.1
+ * css/reset.css - Modified reset to not override strong & em properties
+
+2009.01.12 - version 1.1.0
+ * styles/ - Added 5 new styles (monochrome, off-white-brown, off-white-green, green-red, white-blue)
+ * functions/admin-options.php - Added option for left / right sidebar
+   404.php
+   archive.php
+   category.php
+   header.php
+   index.php
+   page.php
+   search.php
+   sidebar.php
+   single.php
+   template-archives.php
+   template-custom_home.php
+   template-sitemap.php
+  
+2009.01.08 - version 1.0.0
+  * First release!

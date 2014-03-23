@@ -1,0 +1,394 @@
+body  {
+	color: #23262a;
+	background: #9fcaeb url(blueorange/bg.jpg) repeat-x left top;
+}
+
+h1, h2, h3, h4, h5, h6  {
+	color: #16181a;
+}
+
+/*>>>>> Navigation <<<<<*/
+
+a:link, a:visited  {
+	color: #ee5f00;
+}
+
+#nav  {
+	background: url(blueorange/navbg.jpg) repeat-x left top;
+}
+
+/* Page Nav */
+
+#pagenav li a:link, #pagenav li a:visited {
+	color: #b5c9d3;
+}
+
+#pagenav li {
+	background: url(blueorange/nav_divider.jpg) no-repeat right top;
+}
+
+#pagenav li a:hover, #pagenav li.current_page_item a:link, #pagenav li.current_page_item a:visited  {
+	color: #23262a;
+	background: url(blueorange/nav_current_tile.jpg) repeat-x left bottom;
+}
+
+#pagenav li a:hover span.left, #pagenav li.current_page_item span.left  {
+	background: url(blueorange/nav_current_left.jpg) no-repeat left bottom;
+}
+
+#pagenav li a:hover span.right, #pagenav li.current_page_item span.right  {
+	background: url(blueorange/nav_current_right.jpg) no-repeat left bottom!important;
+}
+
+/* Style drop down list */
+
+#pagenav li ul {
+	background: #D8D8D8;
+}
+
+#pagenav li ul li {
+	background: none;
+	border-bottom: 1px solid #aaa;
+}
+
+#pagenav li ul li a:link, #pagenav li ul li a:visited  {
+	color: #000;
+	background: none!important;
+}
+
+#pagenav li ul li a:hover  {
+	background: #e2e2e2!important;
+}
+
+/*>>>>> Layout <<<<<*/
+
+#header #subscribe  {
+	color: #fff;
+	background: url(blueorange/rssbg.jpg) no-repeat left top;
+}
+
+#container  {
+	background: #fff url(blueorange/containerbg_top.jpg) no-repeat left top;
+}
+
+#container_bottombg  {
+	background: url(blueorange/containerbg_bottom.jpg) no-repeat center bottom;
+}
+
+#featured  {
+	border: 1px solid #cbd1d2;
+}
+
+#featured .information  {
+	background-color: #dce1e2;
+}
+
+#featured .information h2  {
+	color: #333940;
+}
+
+#featured .information .feat-button .left  {
+	background: url(blueorange/moreinfoleft.jpg) repeat-x left top;
+}
+
+#featured .information .feat-button a.more-info  {
+	color: #fff;
+	background: url(blueorange/moreinfotile.jpg) repeat-x left top;
+}
+
+#featured .information .feat-button .right  {
+	background: url(blueorange/moreinforight.jpg) repeat-x left top;
+}
+
+#featured-tabs  {
+	border-left: 1px solid #e7eeef;
+	background: #d0d6d7 url(blueorange/featured_links_shadow.jpg) repeat-y left top;
+}
+
+#featured-tabs li  {
+	border-top: 1px solid #bcc5c7;
+	border-bottom: 1px solid #dee2e3;
+}
+
+#featured-tabs li a:link, #featured-tabs li a:visited  {
+	color: #23262a;
+}
+
+#featured-tabs li a:hover, #featured-tabs li.active a  {
+	background: url(blueorange/featured_links_current.jpg) no-repeat left center;
+}
+
+#featured-tabs a span  {
+	color: #4f5357;
+}
+
+#breadcrumb  {
+	border-bottom: 1px solid #cbd1d2;
+}
+
+#content  {
+}
+
+#breadcrumb p  {
+	color: #676b6f
+}
+
+#main_content  {
+	border-right: 1px solid #cbd1d2;
+}
+
+#main_content #top  {
+	border-bottom: 1px solid #cbd1d2;
+}
+
+#two-col ul li  {
+	background: url(blueorange/arrow.jpg) no-repeat left center;
+}
+
+#two-col .left a.signup, #two-col .right a.signup  {
+	color: #fff;
+	background: url(blueorange/signupbutton.jpg) no-repeat left center;
+}
+
+#sidebar h2  {
+	color: #ee5f00;
+}
+
+#sidebar .box  {
+	border-bottom: 1px solid #cbd1d2;
+}
+
+#sidebar .box h2  {
+	border-bottom: 1px solid #cbd1d2;
+}
+
+#newsletter  {
+	border-bottom: 1px solid #ee5f00;
+}
+
+#newsletter .field, #feedburner .field , #campaignmonitor .field {
+	color: #4f5357;
+	border: 1px solid #cbd1d2;
+	background-color: #f2f2f2;
+}
+
+#newsletter .button, #feedburner .button, #campaignmonitor .button  {
+	color: #fff;
+	border: none;
+	background: url(blueorange/submitbutton.jpg) no-repeat left top;
+}
+
+#news ul li  {
+	border-bottom: 1px dotted #dcdddd;
+}
+
+#news ul li a:link, #news ul li a:visited  {
+	color: #23262a;
+}
+
+#news ul li span.meta  {
+	color: #4f5357;
+}
+
+#search, #feedburner, #campaignmonitor  {
+	border-bottom: 1px solid #ee5f00;
+}
+
+#search input#s  {
+	color: #4f5357;
+	border: 1px solid #cbd1d2;
+	background-color: #f2f2f2;
+}
+
+#search input.submitsearch  {
+	color: #fff;
+	border: none;
+	background: url(blueorange/submitbutton.jpg) no-repeat left top;
+}
+
+#twitter a:link, #twitter a:visited  {
+	background: none;
+	color: #ee5f00;
+}
+
+#footer  {
+	color: #fff;
+	background: #23262a url(blueorange/footertop.jpg) repeat-x left top;
+}
+
+#footer .footnav ul li a:link, #footer .footnav ul li a:visited  {
+	color: #fff;
+}
+
+#footer .copyright  {
+	background: url(blueorange/footer_divider.jpg) no-repeat left 10px;
+}
+
+#footer .bottombg  {
+	background: url(blueorange/footerbottom.jpg) no-repeat center bottom;
+}
+
+/*>>>>> Post Styling <<<<<*/
+
+.post  {
+	border-bottom: 1px solid #dadada;
+}
+
+.post_head .title_meta h2 a:link, .post_head .title_meta h2 a:visited  {
+	color: #23262a;
+}
+
+.post_head .title_meta p  {
+	color: #676b6f;
+}
+
+.post_head .comments a:link, .post_head .comments a:visited  {
+	color: #fff;
+	background-color: #ee5f00;
+}
+
+.post_head .comments span.bg  {
+	background: url(blueorange/commentsbg.jpg) no-repeat center center;
+}
+
+.post p.continue_reading a  {
+	background: url(blueorange/continue_reading.jpg) no-repeat right center;
+}
+
+/*>>>>> Page Styles <<<<<*/
+
+#sub_nav  {
+	background-color: #eeeeee;
+}
+
+#sub_nav ul li ul li  {
+	background: url(blueorange/subnav_current.gif) no-repeat left 6px!important;
+}
+
+#sub_nav ul li.sub_active a:link, #sub_nav ul li.sub_active a:visited  {
+	color: #404546;
+}
+
+#page h2.title a:link, #page h2.title a:visited  {
+	color: #23262a;
+}
+
+/*>>>>> ARCHIVES TEMPLATE STYLES <<<<<*/
+
+#archive_posts li, #archive_categories li, #archive_monthly li  {
+	color: #6f6f6f;
+}
+
+/*>>>>> Widget Styles <<<<<*/
+
+.widget  {
+	border-bottom: 1px solid #cbd1d2;
+}
+
+
+.widget h3  {
+	color: #ee5f00;
+	border-bottom: 1px solid #cbd1d2;
+}
+
+.widget ul li  {
+	border-bottom: 1px dotted #dcdddd;
+}
+
+.widget ul li li  {
+	border-bottom: none;
+}
+
+
+.widget ul li a:link, .widget ul li a:visited  {
+	color: #4f5357;
+	background: url(blueorange/widgetlisticon.gif) no-repeat 5px center;
+}
+
+.widget ul li a:hover  {
+	color: #fff;
+	background-color: #959595;
+}
+
+
+#flickr h3  {
+	color: #ee5f00;
+}
+
+#flickr .pics  {
+	border: 1px solid #cbd1d2;
+	background-color: #f7f7f7;
+}
+
+/*>>>>> COMMENTS <<<<<*/
+
+ol li.comment  {
+	border-bottom: 1px solid #dadada;
+}
+
+ol li.comment .comment-author img  {
+	border: 3px solid #dadada;
+}
+
+/*>>>>> COMMENT FORM <<<<<*/
+
+#form_wrap textarea, #form_wrap .form-left input {
+	border: 1px solid #ddd;
+	background: #fff;
+	color: #23262a;
+}
+
+#form_wrap input.sb {
+	color: #fff;
+	border: none;
+	background: url(blueorange/submitbutton.jpg) no-repeat left top;
+}
+
+#cancel-comment-reply-link  {
+	color: #000;
+}
+
+/*>>>>> ALTERNATE HOMEPAGE LAYOUT <<<<<*/
+
+#recent_articles h2.heading, #more_articles h2.heading  {
+	color: #ee5f00;
+}
+
+/* Captions */
+
+.wp-caption {
+	border: 1px solid #ddd;
+	background-color: #f3f3f3;
+}
+
+.wp-caption img {
+	border: 0 none;
+}
+
+/* End captions */
+
+/*>>>>> Page Navi <<<<<*/
+
+div.Nav  {
+	background-color: #e6eced;
+}
+
+.Nav strong.on  {
+	border: none!important;
+	color: #f1f1f1!important;
+	background-color: #ee5f00!important;
+}
+
+.Nav a  {
+	border: none!important;
+	color: #000!important;
+}
+
+/*>>>>> Custom Styles <<<<<*/
+
+.floatl  {float: left;}
+.floatr  {float: right;}
+
+.alignl  {text-align: left;}
+.alignr  {text-align: right;}
+.alignc  {text-align: center;}

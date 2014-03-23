@@ -1,0 +1,321 @@
+/* abstract on blue style */
+
+html, body {
+	color: #ece8ff;
+}
+
+
+body {
+	background: url(blue/bg_pattern.png);
+	background-color:#333333;
+}
+
+#wrap-out {
+	background-image: url(blue/bg_shape.jpg);
+}
+
+#wrap {
+	background-image: url(blue/bg_flower_top-trans.png);
+}
+
+a {
+	color: #f68fee;
+}
+
+p a {
+	border-color:#6a6790;
+}
+
+a:hover {
+	color:#c0e4ff;
+}
+
+h2.arh {
+	background-image:url(blue/bg_footer.jpg);
+	color:#94B3C5;
+}
+
+h2 {
+	color:#c0d0ff;
+}
+
+h3 {
+	color:#ffffff;
+}
+
+#sidebar h2 {
+	color:#c0e4ff;
+}
+
+blockquote {
+	border-color: #be3ac4;
+	color: #ffffff;
+}
+
+blockquote blockquote {
+	border-color: #B78470;
+	color: #A06750;
+}
+
+#top #menu li a {
+	color:#c0e4ff;
+}
+
+#top #menu li a:hover {
+	background-image:url(blue/bg_footer.jpg);
+	color:#f68fee;
+}
+
+#top #menu li.current_page_item a {
+	border-color:#f68fee;
+	color:#f68fee;
+	background-image:url(blue/bg_footer.jpg);
+	padding-right:5px;
+	padding-left:5px;
+}
+
+#top #menu li.current_page_item a:hover {
+	color:#f68fee;
+}
+
+#top .search {
+	background-image:url(blue/bg_search_field.jpg);
+
+}
+
+#content img {
+	background-image:url(blue/bg_footer.jpg);
+}
+
+.from-the-blog .block .top {
+	border-color:#0F0B25;
+}
+
+.from-the-blog img {
+	background: url(blue/bg_footer.jpg);
+}
+
+.from-the-blog .block .top p {
+	color:#ffffff;
+}
+
+.from-the-blog .block p a {
+	color:#C0D0FF !important;
+}
+
+.from-the-blog .block a.more {
+	background: url(blue/bg_more.gif) no-repeat;
+}
+
+
+.post .top h2 a {
+	color: #f68fee;
+}
+
+.post .top h2 a:hover {
+	color: #c239b8;
+}
+
+.post p.post-details span.post-comments {
+	background-image: url(blue/icon_comm-trans.png);
+}
+
+.post p.post-details {
+	color: #ffffff;
+}
+
+.post p.post-details a {
+	color: #7B77B4;
+}
+
+.post p.post-details span.post-categories a {
+	color: #f68fee;
+}
+
+.post p.post-details span.post-categories a:hover {
+	color: #7B77B4;
+}
+
+.post p.post-details a:hover {
+	color: #f68fee;
+}
+
+.post .top {
+	border-color:#140f32;
+}
+
+.post-body a {
+	color: #c0d0ff;
+}
+
+.post-body a:hover {
+	border-color: #E45A49;
+}
+
+
+.post-body ul li {
+
+	background-image: url(blue/bg_star.png);
+}
+
+.post-body img, .wp-caption {
+	background-image:url(blue/bg_footer.jpg);
+}
+
+.post-bottom {
+	background-image:url(blue/bg_footer.jpg);
+	border-color:#0F0B25;
+	color:#525880;
+}
+
+.post-bottom a {
+	color:#7b77b4;
+}
+
+.post-bottom a:hover {
+	color:#F68FEE;
+}
+
+.more-entries {
+	border-color: #140f32;
+}
+
+.more-entries h2 a:hover {
+	color:#f68fee;
+}
+.more-entries h2 a {
+	color:#ffffff;
+}
+
+#comments #cwrap {
+	background-image:url(blue/bg_comment_form.jpg);
+	border-color:#0f0b25;
+}
+
+.comment {
+	border-color:#0F0B25;
+}
+
+.comment .top {
+	color:#C0D0FF;
+}
+
+.comment .top a {
+	color:#F68FEE;
+}
+
+.comment .top a:hover {
+	color:#ffffff;
+}
+
+.lc_logged {
+	color:#c0d0ff;
+}
+
+#comments #cwrap label {
+	color: #ffffff;
+	background-image: url(blue/bg_input_field.gif);
+}
+
+#comments #cwrap label.ta {
+	background-image: url(blue/bg_textarea.gif);
+}
+
+#comments h2 span {
+	background-image: url(blue/icon_comment-trans.png);
+}
+
+#sidebar ul li {
+	background-image: url(blue/bg_sidebar_li.png);
+}
+
+#sidebar li a {
+	border-color:#c0d0ff;
+}
+
+#sidebar .featured li {
+	border-color:#140f32;
+}
+
+#sidebar ul li:hover {
+	background-image: url(blue/bg_sidebar_li.png);
+}
+
+#sidebar .featured li {
+	background-image: url(blue/bg_star.png);
+}
+
+#sidebar .featured li:hover {
+	background-image: url(blue/bg_star_over.png);
+}
+
+#sidebar .featured span {
+	color: #CEEBEB;
+}
+
+#sidebar .featured span a {
+	color: #8db2c3;
+	border-bottom:1px dashed #140f32;
+}
+
+#sidebar .featured span a:hover {
+	color: #c0e4ff;
+}
+
+#sidebar #tag_cloud {
+	background-image: url(blue/bg_tagcloud_dashes-trans.png);
+}
+
+.photos img {
+	background-image:url(blue/bg_footer.jpg);
+}
+
+#wp-calendar caption {
+	background-image: url(blue/bg_footer.jpg);
+	color: #C0D0FF;
+}
+
+#wp-calendar thead tr th {
+	color: #C0D0FF;
+}
+
+#footer {
+	background-image: url(blue/bg_flower_bottom-trans.png);
+}
+
+#footer-out {
+	background: url(blue/bg_footer.jpg);
+}
+
+#footer h2 {
+	color:#c0e4ff;
+}
+
+#footer a {
+	color:#f68fee;
+}
+
+#footer .contact td.left {
+	color:#c0e4ff;
+}
+
+#footer .subscribe form div {
+	background-image:url(blue/bg_subscribe_field.jpg);
+}
+
+#footer .subscribe li {
+	background-image: url(blue/icon_rss.gif);
+}
+
+#footer .popular ul li {
+	background-image: url(blue/icon_checked-trans.png);
+}
+
+#copyright-out {
+	background-color:#110c2a;
+
+}
+
+#copyright {
+	color:#ffffff;
+}

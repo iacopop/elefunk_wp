@@ -1,0 +1,71 @@
+*** Gotham News Changelog ***
+
+2009.08.03 - version 2.0
+ * functions.php - added new framework
+ * /functions/* - added new framework files and removed old files
+ * /functions/images/*.* - Added new framework files
+ * /includes/* - added new framework files and removed old files
+ * header.php - fixed woo_centered (line 19), woo_suckerfish (line 73)
+ * index.php - fixed woo_content_feat (line 21), woo_content_left (line 45), new woo_get_image (line 15 and 35)
+ * single.php - fixed woo_image_disable (line 15), new woo_get_image (line 16)
+ * search.php - new woo_get_image (line 18)
+ * archive.php - new woo_get_image (line 30)
+ * style.css - update version number
+
+2009.07.28 - version 1.1.6
+ * functions.php - added conditional for script to not be added to backend.
+
+2009.07.06 - version 1.1.5
+ * template-full.php - Added full-width template
+ * style.css - Added styles for full-width template.
+
+2009.06.11 - version 1.1.4
+ * functions.php - Upgrade (get_categories fix)
+ * sidebar.php - added "idTabs" class to tabber in sidebar
+ * /includes/js/tabs.js - Script upgrade
+
+2009.04.05 - version 1.1.3
+* includes/popular.php - show the excerpt instead of the content
+
+2009.02.23 - version 1.1.2
+	* header.php - added suckerfish dropdowns optional to category nav
+	  style.css - replace #main-menu entries
+	  functions/admin-options.php
+	  includes/js/suckerfish.js
+
+2009.02.13 - version 1.1.1
+	* functions/admin-setup.php - Fixed register sidebar code
+	  style.css - Fixed widget styling
+	* functions.php - WooThemes theme page
+	  functions/admin-theme-page.php
+	* functions.php - Added javascript loading
+	  header.php - Removed javascript loading
+
+2008.12.17 - version 1.1
+  * comments.php - New comment loop which adds WP 2.7 features (threaded comments, page navigation)
+	comments-legacy.php
+	functions.php
+	style.css
+	header.php
+  * header.php - Fixed sub category menu for wp2.7
+  * functions/admin-style.css - New "2.7" style on admin panel
+    functions.php
+  * style.css - Added image caption styling
+  
+2008.12.07 - version 1.0.4
+  * includes/popular.php - Fixed bug showing same excerpt
+  * includes/widget.php - Fixed typo 
+  * header.php - Fixed category menu
+  * sidebar.php - Fixed featured tab
+
+2008.11.24 - version 1.0.3
+  * comments.php - Fixed comment form
+
+2008.11.21 - version 1.0.2
+  * style.css - Fixed bug in IE7 2nd cat navigation
+  
+2008.11.19 - version 1.0.1
+  * sidebar.php - fixed featured tab
+  * search.php - removed popular posts
+  
+2008.11.19 - version 1.0.0

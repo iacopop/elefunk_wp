@@ -1,0 +1,72 @@
+*** THiCK Changelog ***
+
+2009.08.06 - version 2.0.0
+  * /functions/ - New WooThemes Framework (V1.0.4) (core theme functions)
+     functions.php
+  * includes/theme-comments.php - Moved from /functions/
+     includes/theme-functions.php
+     includes/theme-js.php
+     includes/theme-options.php
+     includes/theme-widgets.php
+     includes/sidebar-init.php
+  * includes/theme-options.php - Added new general options
+  * include.php - Fixed checkbox options ( $var == 'true' instead of just $var )
+  * header.php - Removed jQuery includes
+
+2009.07.16 - version 1.1.5
+  * style.css - added strong and em to style.css
+
+2009.06.11 - version 1.1.4
+ * functions.php - Upgrade (get_categories fix)
+
+2009.04.15 - Version 1.1.3
+	* style.css - fixed Lifestream plugin's styling
+	* includes/widgets.php - removed custom Lifestream widget (not required)
+
+2009.02.16 - Version 1.1.2
+	* style.css - IE7 fix added height:100% to #header-alt-bottom
+
+2009.02.16 - Version 1.1.1
+	* style.css - IE6 fix #leftbar
+	* functions.php - Added default value to stylesheets 
+	* header.php - Added default value to header selection option
+
+2009.01.20 - Version 1.1
+	* comments.php - Threaded comment support
+	  comments-legacy.php
+	  functions.php
+	  style.css (see THREADED COMMENTS section)	  
+
+2009.01.19 - Version 1.0.6
+	* index.php - Fixed IE7 bug for featured area
+	   style.css
+	   styles/clean-dark.css
+	   styles/clean-light.css
+	   styles/dirty-dark.css
+	   styles/dirty-light.css
+
+2009.01.11 - Version 1.0.5
+	* includes/widgets.php - Fixed stumbleupon setting
+
+2008.12.22 - Version 1.0.4
+	* footer.php - added <?php wp_footer(); ?>
+	
+2008.11.22 - Version 1.0.3
+	* images/icons/stumbleupon.png - added new SU icon for Social Profiles widget
+	* style.css - added styling for SU listing in Social Profiles widget
+	* includes/widgets.php - added SU link to Social Profiles widget
+	* functions/admin-options.php - added SU option and ability to disable homepage 125x125 ads
+	* index.php - added ability to disable the ads
+
+2008.11.18 - Version 1.0.2
+	* headers/header.php - added stripslashes() to improve parsing of about text
+	* 404.php - added 404 error template page
+	* functions/admin-options.php - changed Digg Username -> Digg Profile URL
+	* includes/widgets.php - changed widget titles to reflect where they should be used
+
+2008.11.14 - Version 1.0.1
+  * headers/*.* - fixed custom logo bug
+  * style.css - added height for featured image
+
+2008.11.10 - Version 1.0.0
+

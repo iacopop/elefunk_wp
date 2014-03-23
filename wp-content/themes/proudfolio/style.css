@@ -1,0 +1,18 @@
+/*
+THEME NAME: ProudFolio
+THEME URI: http://www.woothemes.com
+DESCRIPTION: Proudfolio by WooThemes
+TAGS: proudfolio, portfolio, woothemes, elliot jay stocks, adii
+VERSION: 1.2.1
+AUTHOR: WooThemes
+AUTHOR URI: http://www.woothemes.com
+*/
+
+@import "style/css/reset.css";
+@import "style/css/typography.css";
+@import "style/css/layout.css";
+
+/* To use alternative body background images and associated text styles, comment out the below as you wish. */
+
+/* @import "style/css/alternative01.css"; */
+/* @import "style/css/alternative02.css"; */

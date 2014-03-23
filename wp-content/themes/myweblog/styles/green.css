@@ -1,0 +1,294 @@
+/* 00 - GLOBAL ELEMENTS
+/* ----------------------------------------------*/
+
+body {
+	background:#262f23 url(green/background-repeat.gif) repeat-x top left;
+	color:#465159;
+}
+
+/* 01 - TYPOGRAPHY
+/* ----------------------------------------------*/
+
+
+.post-content h1 {
+	color:#80a276;
+	border-bottom:1px solid #CCCCCC;
+}
+
+.post-content h2 {
+	color:#80a276;
+}
+
+h2 span {
+	color:#80a276;
+}
+
+/* Post Title */
+h3 {
+	color:#3e2c33;
+}
+
+	.post-content h3 {
+		color:#80a276;
+	}
+
+	h3 a:link, h3 a:visited, h3 a:active {
+		color:#3e2c33;
+	}
+
+/* Sidebar */
+h4 {
+	color:#e0f8d8;
+	background:url(green/sidebar-top.gif) no-repeat bottom center;
+}
+
+	.post-content h4  {
+		color:#52644c;
+	}
+
+/* Lifestream Date */
+h5 {
+	color:#b0d0a6;
+	border-bottom:2px solid #3d4b37;
+}
+
+a:link, a:visited, a:active {
+	text-decoration:none;
+	color:#2e2e2e;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+/* Header
+/* -------------- */
+
+#about {
+	color:#6e8068;
+}
+
+	#about a:link, #about a:visited, #about a:active {
+		color:#8ea784;
+	}
+	
+	#about a:hover {
+		color:#aac3a1;
+	}
+	
+
+/* Top Navigation
+/* -------------- */
+
+#categories li a {
+	color:#e0f8d8;
+}
+
+	#categories li:hover, #categories li.current_page_item {
+		background:url(green/cat-hover-left.gif) no-repeat bottom left;
+	}
+	
+	#categories li:hover a, #categories li.current_page_item a {
+		background:url(green/cat-hover-right.gif) no-repeat bottom right;
+	}
+
+	#categories li a span {
+		color:#d5e2d0;
+	}
+
+	#categories li:hover a, #categories li:hover a span, #categories li.current_page_item a, #categories li.current_page_item a span {
+		color:#FFF;
+	}
+	
+#subscribe {
+	background:url(green/rss.gif) no-repeat center right;
+	color:#FFF;
+}
+
+	#subscribe a:link, #subscribe a:visited, #subscribe a:active {
+		color:#ffffff;
+	}
+	
+			#navigation li.current_page_item a:link,
+			#navigation li.current_page_item a:visited,
+			#navigation li.current_page_item a:active {
+				background:url(green/nav-right.png) no-repeat top right;
+				color:#252b2f;
+			}
+	
+			#navigation li.current_page_item a:link span,
+			#navigation li.current_page_item a:visited span,
+			#navigation li.current_page_item a:active span {
+				background:url(green/nav-left.gif) no-repeat top left;
+			}
+	
+
+/* Sidebar
+/* ---------------- */
+
+#sidebar {
+	color:#889983;
+}
+
+	#sidebar a:link, #sidebar a:visited, #sidebar a:active {
+		color:#9cb595;
+	}
+	
+/* Footer
+/* ----------------- */
+	
+.copyright, .powered {
+	color:#bbbbbb;
+}
+
+	#footer a:link, #footer a:visited, #footer a:active {
+		color:#dedede;
+	}
+
+	#footer a:hover {
+		color:#FFF;
+	}
+
+	
+/* 02 - MAIN STRUCTURE
+/* ----------------------------------------------*/
+
+#container {
+	background:url(green/footer-glow.gif) no-repeat bottom center;
+}
+
+/* Background Decoration */
+
+#body-top-left {
+	background:url(green/background.png) no-repeat top left;
+}
+
+/* 03 - HEADER
+/* ----------------------------------------------*/
+
+#logo {
+	background:url(green/logo-back.gif) no-repeat top left;
+}
+
+#about {
+	background:url(green/about-quote.gif) no-repeat top right;
+}
+
+/* 04 - TOP NAVIGATION
+/* ----------------------------------------------*/
+
+#top-nav {
+	background:url(green/top-nav-back.gif) repeat-x top center;
+}
+
+#search {
+	background:url(green/search-form-back.gif) no-repeat center left;
+}
+	
+	#search #s {
+		color:#FFF;
+	}
+	
+		#sidebar #search #s {
+			background:#364331;
+			border:1px solid #3f473c;
+		}
+	
+		#sidebar #search #go {
+			background:#364331 url(green/sidebar-back.jpg) repeat-x bottom center;
+			border:1px solid #3f473c;
+			font:bold 1.00em Georgia, "Times New Roman", Times, serif; color:#FFF;
+		}
+		
+	#categories li ul {
+		border: 1px solid #b1c9a9;
+		border-width:0px 1px 1px;
+		background:#a3bc98;
+	}
+	
+		#categories li:hover ul li a {
+			color:#d5e2d0;
+		}
+			
+		#categories li ul li a:hover {
+			color:#FFF;
+		}
+	
+	
+/* 05 - MAIN CONTENT
+/* ----------------------------------------------*/
+
+#main-content {
+	background:url(green/main-content-back.gif) no-repeat top center;
+}
+
+#content {
+	background:url(green/content-bottom.gif) no-repeat bottom center;
+}
+
+/* Navigation
+/* -------------- */
+
+#navigation {
+	background:url(green/content-top.gif) no-repeat bottom left;
+}
+			
+/* Page Meta
+/* -------------- */
+			
+#page-meta {
+	border:1px solid #cccdce; border-width:0 1px;
+	background:#dad6d8 url(green/content-color-divider.gif) no-repeat bottom center;
+}
+	
+	
+/* Comments
+/* -------------- */
+
+#posts li #commentlist li {
+	background:#f1f1f1; border:1px solid #d3d3d3;
+}
+	
+/* Ad Block
+/* -------------- */
+
+.ad-block {
+	border:1px solid #cccdce; border-width:0 1px;
+	background:#d8dbd7 url(green/content-color-divider.gif) no-repeat bottom center;
+}
+
+	.ad-block p {
+		background:url(green/divider-single.gif) no-repeat top center;
+	}
+	
+/* 06 - SIDEBAR
+/* ----------------------------------------------*/
+
+#sidebar li ul, #sidebar li #calendar_wrap, #sidebar .sidebar_ul  {
+	background:#364331 url(green/sidebar-back.jpg) repeat-x bottom center;
+	border:1px solid #40493d; border-width:0 1px 1px 1px;
+}
+
+ #sidebar #woo_adspace .sidebar_ul {background-image: url(green/sidebar-top.gif); background-repeat: no-repeat!important; background-position: center top!important;}      
+		
+.lifestream-post {
+	background:url(green/lifestream-arrow.gif) no-repeat top left;
+}
+				
+	.lifestream-post p {
+		background:#3d4b37 url(green/lifestream-post-bottom.gif) no-repeat bottom center;
+		color:#889983;
+	}
+					
+		.lifestream-post p a:link, .lifestream-post p a:visited, .lifestream-post p a:active {
+			color:#9cb595;
+		}
+	
+/* 07 - FOOTER
+/* ----------------------------------------------*/
+
+#footer {
+	background:url(green/footer.gif) no-repeat top center;
+}
+
+.flickr_badge_image {background: #262F23; border-color: #3D4B37;}

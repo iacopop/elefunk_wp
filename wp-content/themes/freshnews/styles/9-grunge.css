@@ -1,0 +1,7 @@
+body { background:#3d372c url(grunge/background-grunge.gif) no-repeat top center; }
+#background { background:url(grunge/bgr.jpg) repeat-x top center; }
+#nav li ul li { background: #FFFFFF url(grunge/bgr-box-trans.png) repeat-x top; }
+#header { background:url(grunge/background-grunge-top.gif) no-repeat top center; }
+.box, .widget {	background: #f7f4ea url(grunge/bgr-box-trans.png) repeat-x top left;  }
+.box2 {	background: #f5f4f0 url(grunge/bgr-box-trans.png) repeat-x top left;  }
+#footer { background:#e4e2db url(grunge/bgr-footer.gif) repeat-x; }

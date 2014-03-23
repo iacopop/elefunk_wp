@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://www.elefunk.net/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.0.4" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.4" -->
+<!-- generated-on="25/08/2013 14:19" -->
+<!-- Debug: Total comment count: 1 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://www.elefunk.net/</loc>
+		<lastmod>2013-06-26T12:17:35+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+<!-- Debug: Priority report of postID 756: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/elefunk/</loc>
+		<lastmod>2013-06-26T12:17:35+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 520: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/funkyfizza-lo-stivale/</loc>
+		<lastmod>2013-06-26T12:16:55+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 727: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/il-promo-live-degli-elefunk/</loc>
+		<lastmod>2013-06-26T12:16:09+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 452: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/funkshot-compilation/</loc>
+		<lastmod>2013-06-26T12:14:50+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 407: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/la-musica-degli-elefunk-su-itunes/</loc>
+		<lastmod>2013-04-29T10:05:44+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 497: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/elefunk-ready-to-funk-novita-fall-winter-2011/</loc>
+		<lastmod>2013-04-29T09:58:10+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 774: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/nytro-jack/</loc>
+		<lastmod>2012-09-10T12:47:50+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 771: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/sam-peterson/</loc>
+		<lastmod>2012-09-10T12:47:38+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 763: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/mr-john-pecchi/</loc>
+		<lastmod>2012-09-10T12:47:23+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 768: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/sir-julius-a-n-gore/</loc>
+		<lastmod>2012-09-10T12:46:59+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 760: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/teacher-mark-the-voice/</loc>
+		<lastmod>2012-09-10T12:46:16+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 732: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/elefunk-on-jazzup-channel/</loc>
+		<lastmod>2012-09-10T12:01:55+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 403: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/online-il-nuovo-ep-con-4-brani-degli-elefunk/</loc>
+		<lastmod>2012-09-10T11:58:35+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 679: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/concerti/vicchio-fi-020912-elefunk-live-vicchio/</loc>
+		<lastmod>2012-09-03T09:55:20+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 425: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/nuove-serate-degli-elefunk/</loc>
+		<lastmod>2012-08-28T10:34:25+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 613: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/concerti/ferrara-fe-210712-reload-festival/</loc>
+		<lastmod>2012-07-22T12:09:02+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 512: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/segui-thomas-su-facebook/</loc>
+		<lastmod>2012-07-16T07:16:08+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 590: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/concerti/firenze-firenze-270412-elefunk-live-fortezza-da-basso-fi/</loc>
+		<lastmod>2012-04-17T17:13:24+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 583: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/concerti/castiglion-fiorentino-arezzo-210212-elefunk-live-carnival-party/</loc>
+		<lastmod>2012-02-14T17:12:32+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 575: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/carnival-2012/</loc>
+		<lastmod>2012-01-30T09:54:53+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 440: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/concerti/bologna-bologna-121111-elefunk-live-arteria/</loc>
+		<lastmod>2011-11-11T16:58:46+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://www.elefunk.net/rassegna_stampa/</loc>
+		<lastmod>2011-10-04T09:36:10+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.elefunk.net/foto/</loc>
+		<lastmod>2011-10-04T08:44:32+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 415: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/concerti/lucca-lucca-200611-contest-lucca-summer-giovani/</loc>
+		<lastmod>2011-10-03T11:23:58+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 419: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/concerti/firenze-firenze-290611-finale-t-rumors-2011/</loc>
+		<lastmod>2011-10-03T11:19:09+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 413: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/concerti/bologna-bologna-170611-serata-di-premiazione-dellhouse-of-funk-funk-in-italia/</loc>
+		<lastmod>2011-10-03T11:10:30+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://www.elefunk.net/biografia/</loc>
+		<lastmod>2011-10-03T10:51:52+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 431: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/concerti/bettolle-si-021111-elefunk-timory-pub/</loc>
+		<lastmod>2011-10-03T10:14:10+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 411: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/concerti/foiano-della-chiana-arezzo-110611-fuorionda-festival-per-il-pozzo-della-chiana/</loc>
+		<lastmod>2011-06-05T16:49:37+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 400: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/in-finale-al-t-rumors/</loc>
+		<lastmod>2011-05-06T12:55:48+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 395: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/thomas-turbato/</loc>
+		<lastmod>2011-05-05T15:32:54+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 390: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/concerti/arezzo-arezzo-240411-finale-social-wave/</loc>
+		<lastmod>2011-04-05T15:54:58+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 334: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/concerti/castiglion-fiorentino-arezzo-200211-socialwave-organizzato-da-italia-wave/</loc>
+		<lastmod>2011-04-05T15:50:50+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 383: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/in-finale-al-social-wave/</loc>
+		<lastmod>2011-04-05T10:05:33+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 340: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/gli-elefunk-regalano-cd-a-palla/</loc>
+		<lastmod>2011-02-17T10:04:35+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 337: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/elefunk-al-social-wave/</loc>
+		<lastmod>2011-02-16T15:18:46+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://www.elefunk.net/video/</loc>
+		<lastmod>2011-02-16T13:17:18+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 302: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/concerti/foiano-della-chiana-arezzo-030311-concerto-di-carnevale-giovedi-grasso/</loc>
+		<lastmod>2011-02-15T12:57:41+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 330: Comments: 1 of 1 = 1 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/330/</loc>
+		<lastmod>2011-02-13T20:33:06+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://www.elefunk.net/music/</loc>
+		<lastmod>2011-02-13T20:22:11+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 300: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/concerti/foiano-della-chiana-arezzo-200211-concerto-di-carnevale/</loc>
+		<lastmod>2011-02-12T16:38:11+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 43: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/concerti/castiglion-fiorentino-arezzo-311010-velvet-underground-halloween/</loc>
+		<lastmod>2011-02-12T16:35:44+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 274: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/lezioni_di_funk/il_fattore_f/</loc>
+		<lastmod>2011-02-03T08:42:45+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 265: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/lezioni_di_funk/musica_blues/</loc>
+		<lastmod>2011-01-06T18:14:32+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 258: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/lezioni_di_funk/origine-del-funk/</loc>
+		<lastmod>2011-01-06T18:05:34+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 250: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/lezioni_di_funk/funk/</loc>
+		<lastmod>2011-01-06T18:00:53+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://www.elefunk.net/concerti/</loc>
+		<lastmod>2011-01-03T18:23:32+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.elefunk.net/contatti/</loc>
+		<lastmod>2011-01-02T15:29:26+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 203: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/elefunk-2011/</loc>
+		<lastmod>2011-01-02T11:18:32+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 201: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/il-nuovo-sito-degli-elefunk/</loc>
+		<lastmod>2011-01-02T11:05:30+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 199: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/prova/</loc>
+		<lastmod>2011-01-02T10:58:35+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 109: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://www.elefunk.net/news/arezzo-arezzo-070110/</loc>
+		<lastmod>2010-12-31T14:54:20+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://www.elefunk.net/origine_del_funk/</loc>
+		<lastmod>2010-12-31T11:35:21+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

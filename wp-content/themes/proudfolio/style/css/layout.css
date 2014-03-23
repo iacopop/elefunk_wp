@@ -1,0 +1,44 @@
+
+/* LAYOUT */
+/* ----------------------------------------- */
+
+/* Main layout blocks */
+body { background:#141414 url(../images/body01.jpg) top center no-repeat fixed; border-top:10px solid #000 }
+div { position:relative }
+img { margin:10px 0 }
+div.wrapper { position:relative; margin:0 auto; width:620px }
+div.footer { width:100%; margin:40px 0 0 0; padding:40px 0; background:#000 }
+div.footer div { margin:0 auto; width:620px }
+br.dirtyLittleTrick { clear:both; height:1px; margin:-1px 0 0 0 }
+
+/* Advanced layout */
+ul.nav { position:absolute; top:40px; left:0 }
+div.footer div div.feeds { position:absolute; top:0; left:0 }
+div.footer div div.feeds ul li a { display:block; margin:10px 0; padding:0 0 0 23px; height:16px; width:170px; background:url(../images/feedIcon01.gif) top left no-repeat; color:#9ff }
+div.footer div div.feeds ul li a:hover { border:none; color:#fff }
+div.footer div div.credits { width:380px; padding:0 0 0 20px; margin:0 0 0 220px; border-left:1px solid #666 }
+div.footer img { margin:0; vertical-align:middle; }
+div.portfolioItem { background:url(../images/semiTransparent01.png); margin:0 0 40px 0; padding:0 10px 20px 10px }
+body.archive div.portfolioItem { margin:0 0 100px 0 }
+div.blogOnHomePage { margin:0 0 40px 0 }
+div.blogOnHomePage div.search { position:absolute; top:0; left:0 }
+div.blogOnHomePage .post { width:380px; padding:0 0 0 20px; margin:0 0 0 220px; border-left:1px solid #666 }
+div.blogFocus { margin:0 0 40px 0 }
+div.blogFocus div.search { position:absolute; top:0; left:400px }
+div.blogFocus .post { background:url(../images/semiTransparent01.png); width:340px; padding:20px 20px 10px 20px }
+.search form { margin:20px 0 }
+input.textInput { width:140px }
+div.recentProjects ul { margin:0 0 40px 0 }
+div.recentProjects ul li { display:inline; margin:0 16px 0 0 }
+div.recentProjects ul li.last { margin:0 }
+div.recentProjects ul li a img { background:url(../images/semiTransparent01.png); padding:10px }
+div.recentProjects ul li a:hover { border:none }
+div.singlePost { float:left; width:340px; padding:0 40px 0 0 }
+ul.sidebar { float:left; width:219px; padding:0 0 0 20px; border-left:1px solid #666 }
+.post { margin:0 0 20px 0 }
+ul.recentEntries.mini li { width:140px; float:left; margin:0 12px 0 0 }
+.widget { margin-top: 40px; }
+.gravatar img { float:left; border: 1px solid #DEDBD1 !important; margin: 0px 7px 0 0; padding-top:0px !important;}
+
+div#comments ol.commentlist li.comment { padding:20px 0; border-bottom:1px solid #666 }
+div#comments form#commentform input, form#commentform textarea { width:340px; margin:5px 0 }

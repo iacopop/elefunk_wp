@@ -1,0 +1,48 @@
+#nav ul li a span.left, #nav ul li.current-page-item span.left, #nav ul li a span.right, #nav ul li.current-page-item span.right  {
+	bottom: 10px!important;
+}
+
+#pagenav li {
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 9px 0 5px;
+}
+
+#pagenav li a:link, #pagenav li a:visited {
+	display: block;
+	position: relative;
+	padding: 8px 8px 0px 8px;
+	text-decoration: none;
+	margin-top: -8px;
+	z-index: 100;
+}
+
+#pagenav li a:hover, #pagenav li.current_page_item a:link, #pagenav li.current_page_item a:visited  {
+	position: relative;
+}
+
+#pagenav li a:hover span.left, #pagenav li.current_page_item span.left  {
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 5px;
+	height: 33px;
+}
+
+#pagenav li a:hover span.right, #pagenav li.current_page_item span.right  {
+	display: block;
+	position: absolute;
+	right: 0;	
+	bottom: 0;
+	width: 5px;
+	height: 33px;
+}
+
+#pagenav li ul li a:link, #pagenav li ul li a:visited  {
+	display: block;
+	width: 190px;
+	margin: 0!important;
+	padding: 0px 0 0px 10px!important;
+}

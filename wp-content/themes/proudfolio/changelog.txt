@@ -1,0 +1,25 @@
+*** Proudfolio Changelog ***
+
+2009.06.11 - version 1.2.1
+ * functions.php - Upgrade (get_category fix)
+ 
+2008.10.22 - version 1.2.0
+  * thumb.php - new version
+
+2008.10.09 - version 1.1.2
+  * functions/custom.php - Fixed bug with update of custom fields
+
+2008.08.29 - Version 1.1.1
+  * single-blog.php - Fixed date
+
+2008.08.07 - Version 1.1
+  * changelog.txt - Added changelog and revised version number
+  * includes/easytube.php - Added easytube integrated
+  * includes/test.php - Added phpinfo() file for debugging resizer on buggy hosts
+  * functions/custom.php - Custom settings panel in WP post window
+  * footer.php - Stripslashes on google analytics
+  * footer.php - WooThemes credit logo
+  * screenshot.png - New screenshot  
+  * functions.php - .mainrow border-bottom: 1px solid #D4E9FA !important;
+  * functions.php - Fixed google analytics slashes when saving
+  * functions.php - No <br/> before description of checkboxes

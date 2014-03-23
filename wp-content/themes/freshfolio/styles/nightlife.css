@@ -1,0 +1,59 @@
+/*  
+Style: Default
+*/
+
+body{ background: url(nightlife/bgr.gif) #222222 repeat-x top; color: #555555;font-family:"Lucida Grande",Verdana,"Trebuchet MS",Arial,sans-serif; }
+#background { background:none; }
+a{ color: #aaaaaa; }
+a:hover{}
+input,select,textarea{ border: #999999 1px solid; }
+#header{ background: none;	color: #d8d8d8; }
+#header #description a { color: #A7DEF8; }
+#logo{ border-right: 1px solid #40403f; }
+#logo h1 a{	border-bottom: 1px solid #40403f; }
+#logo h2{ color: #e6e6e6; }
+#latest .pic img{ border: 5px solid #ffffff; }
+#latest .pic img:hover { border: 5px solid #333333; }
+#latest .demo a{ color: #ffffff; }
+#latest .demo a:hover { color: #A7DEF8; }
+#latest a.btn-demo{ background: url(nightlife/btn-demo.png) no-repeat; color:#222222 }
+#nav1 li a{	color: #d8d8d8; }
+#nav1 li a:hover{ color: #ffffff; }
+#nav1 li.current_page_item a{ background: url(nightlife/tab-hover.gif) no-repeat left; }
+#nav1 li.current_page_item a span{ background: url(nightlife/tab-hover.gif) no-repeat right;color: #222222; }
+#nav1 li a:hover{background: url(nightlife/tab-hover.gif) no-repeat left;color: #222222; }
+#nav1 li a:hover span{ background: url(nightlife/tab-hover.gif) no-repeat right; }
+#sidebar{ border-left:1px solid #40403F; }
+.box, #searchform{ background: url(nightlife/box-bgr.gif) #ffffff repeat-x top;	border: 1px solid #fefefe; }
+.box a { color:#BCCE62; }
+.box h3{ color: #555555; }
+.box h3 a{ color: #000000; }
+.box .pic img{ background: #fcfbfc;	border: 1px solid #e6e6e6; }
+.box .pics img{	border: 1px solid #e6e6e6;}
+.box .pic img:hover, .box .pics img:hover{ background: #ffffff;	border: 1px dotted #bbbbbb; }
+#sidebar h2, #columns h2{ color: #a7def8; font-weight:bold; }
+.date{ color: #aaaaaa; }
+.date a{ color: #aaaaaa; }
+.comment{ background: url(../images/c-grey.png) no-repeat; color: #ffffff; }
+.box .comment{ background: url(../images/c-green.png) no-repeat; color: #ffffff; }
+.comment a{	color: #ffffff; }
+.prev-entries {	background: url(nightlife/hl-dot.gif) repeat-x bottom; }
+.headline{ background: url(nightlife/hl-dot.gif) repeat-x bottom; }
+.headline h3 a{	color: #ffffff; }
+.widget ul{	background: url(nightlife/hl-dot.gif) repeat-x top; }
+.widget ul li{ background: url(nightlife/hl-dot.gif) repeat-x bottom; }
+.widget ul li:hover { background-color:#222222; }
+.widget h3{	color: #555555; }
+.widget h3 a{ color: #555555; }
+.widget a:hover { color:#ffffff;}
+#footer{ background: url(nightlife/hl-dot.gif) repeat-x top; color: #aaaaaa; }
+#footer a{ color: #aaaaaa; }
+#columns h3.commh3 { color:#ffffff !important; }
+#columns .commentmetadata a { color:#333333; }
+#columns ol.commentlist .comment-text{	background:#F8F8F4;	border:1px solid #e6e6e6; }
+input#submit {color:#363636; border: 1px solid #e6e6e6;	background:#F5F4F0; }
+.gravatar {	background:#FFFFFF none repeat scroll 0 0; border:1px solid #e6e6e6; }
+input, select, textarea { border:1px solid #e6e6e6; }
+.entry img { background:#F8F8F4; border: solid 1px #e6e6e6;	}
+.hl{ background: url(nightlife/hl-dot.gif) repeat-x top; }
+.box .hl{ border-top: 1px solid #e6e6e6; }

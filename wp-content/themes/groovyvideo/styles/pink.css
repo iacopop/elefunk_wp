@@ -1,0 +1,8 @@
+/* pink style */
+
+body { background: url(pink/bg-tile.jpg) repeat top center; }
+#wrap {	background: url(pink/bg.jpg) repeat-x top center; }
+a { color: #c56ebd; }
+#archive .box2 .post-details, #main p.post-details, #comments ol.commentlist .comment-meta a {color:#91698d;}
+#bottom .subscribe .rss { background: url(pink/ico-subscribe.png) no-repeat center left; }
+#bottom #recentcomments li { background:transparent url(pink/ico-comment.png) no-repeat scroll left center; }

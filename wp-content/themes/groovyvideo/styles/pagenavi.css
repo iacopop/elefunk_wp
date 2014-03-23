@@ -1,0 +1,29 @@
+.wp-pagenavi {
+float: right;
+}
+
+.wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:visited, .wp-pagenavi a:active, .wp-pagenavi span.extend {
+	padding-top: 5px;
+	padding-right: 9px;
+	padding-bottom: 5px;
+	padding-left: 9px;
+	margin-left: 2px;
+	text-decoration: none;
+	background:url(../images/box2-bg.png) repeat top left;
+	color: #fff;
+	border: none;
+}
+.wp-pagenavi a:hover {	
+	 background: #000 !important;
+}
+
+.wp-pagenavi span.current {
+	padding-top: 5px;
+	padding-right: 9px;
+	padding-bottom: 5px;
+	padding-left: 9px;
+	margin-left: 2px;
+	border: none;
+	color: #fff;
+	background-color: #000;
+}

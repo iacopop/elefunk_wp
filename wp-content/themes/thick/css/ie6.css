@@ -1,0 +1,35 @@
+
+#header-alt-bottom {
+	float: left;
+	width: 100%;
+}
+
+#content {
+	display: inline;
+	margin-left: -20px;
+	overflow: hidden;
+}
+
+#featured h2 {
+	height: 160px;
+}
+
+#comments .comment-meta {
+	margin-bottom: 0;
+}
+
+#sidebar {
+	width: 178px;
+}
+
+#sidebar ul#photos {
+	margin: 0 0 15px 3px;
+}
+
+#media-widget.widget ul {
+	margin-left: 1px;
+}
+
+#media-widget.widget ul li {
+	margin: 0 0 0 9px;
+}

@@ -1,0 +1,310 @@
+/* abstract on red style */
+
+html, body {
+	color: #ffffff;
+}
+
+
+body {
+	background: url(red/bg_pattern.png);
+	background-color:#333333;
+}
+
+#wrap-out {
+	background-image: url(red/bg_shape.jpg);
+}
+
+#wrap {
+	background-image: url(red/bg_flower_top-trans.png);
+}
+
+a {
+	color: #E45A49;
+}
+
+p a {
+	border-color:#6a6790;
+}
+
+a:hover {
+	color:#c0e4ff;
+}
+
+h2.arh {
+	background-image:url(red/bg_footer.jpg);
+	color:#94B3C5;
+}
+
+h2 {
+	color:#C0E4FF;
+}
+
+#sidebar h2 {
+	color:#c0e4ff;
+}
+
+blockquote {
+	border-color: #E45A49;
+	color: #ffffff;
+}
+
+blockquote blockquote {
+	border-color: #B78470;
+	color: #A06750;
+}
+
+#top #menu li a {
+	color:#c0e4ff;
+}
+
+#top #menu li a:hover {
+	background-image:url(red/bg_footer.jpg);
+	color:#f9e200;
+}
+
+#top #menu li.current_page_item a {
+	border-color:#f9e200;
+	color:#f9e200;
+	background-image:url(red/bg_footer.jpg);
+	padding-right:5px;
+	padding-left:5px;
+}
+
+#top #menu li.current_page_item a:hover {
+	color:#f9e100;
+}
+
+#top .search {
+	background-image:url(red/bg_search_field.jpg);
+}
+
+#content img {
+	background-image:url(red/bg_footer.jpg);
+}
+
+.from-the-blog img {
+	background: url(red/bg_footer.jpg);
+}
+
+.from-the-blog .block .top {
+	border-color:#340000;
+}
+
+.from-the-blog .block .top p {
+	color:#ffffff;
+}
+
+.from-the-blog .block p a {
+	color:#F9E100 !important;
+}
+
+.from-the-blog .block a.more {
+	background: url(red/bg_more.gif) no-repeat;
+}
+
+.post .top h2 a {
+	color: #f9e100;
+}
+
+.post .top h2 a:hover {
+	color: #E45A49;
+}
+
+.post p.post-details span.post-comments {
+	background-image: url(red/icon_comm-trans.png);
+}
+
+.post p.post-details {
+	color: #ffffff;
+}
+
+.post p.post-details a {
+	color: #E45A49;
+}
+
+.post p.post-details span.post-categories a {
+	color: #E45A49;
+}
+
+.post p.post-details span.post-categories a:hover {
+	color: #C0E4FF;
+}
+
+.post p.post-details a:hover {
+	color: #C0E4FF;
+}
+
+.post .top {
+	border-color:#340000;
+}
+
+.post-body a {
+	color: #C0E4FF;
+}
+
+.post-body a:hover {
+	border-color: #E45A49;
+}
+
+
+.post-body ul li {
+	background-image: url(red/bg_star.png);
+}
+
+.post-body img, .wp-caption {
+	background-image:url(red/bg_footer.jpg);
+}
+
+.post-bottom {
+	background-image:url(red/bg_footer.jpg);
+	border-color:#340000;
+	color:#ffffff;
+}
+
+.post-bottom a {
+	color:#F9E100;
+}
+
+.post-bottom a:hover {
+	color:#ffffff;
+}
+
+.more-entries {
+	border-color: #340000;
+}
+
+.more-entries h2 a:hover {
+	color:#7b77b4;
+}
+.more-entries h2 a {
+	color:#ffffff;
+}
+
+#comments #cwrap {
+	background-image:url(red/bg_comment_form.jpg);
+	border-color:#340000;
+}
+
+.comment {
+	border-color:#340000;
+}
+
+.comment .top {
+	color:#ffffff;
+}
+
+.comment .top a {
+	color:#F9E100;
+}
+
+.comment .top a:hover {
+	color:#F9E100;
+	text-decoration:underline;
+}
+
+.lc_logged {
+	color:#C0E4FF;
+}
+
+#comments #cwrap label {
+	color: #ffffff;
+	background-image: url(red/bg_input_field.gif);
+}
+
+#comments #cwrap label.ta {
+	background-image: url(red/bg_textarea.gif);
+}
+
+#sidebar ul li {
+	background-image: url(red/bg_sidebar_li.png);
+}
+
+#sidebar li a {
+	border-color:#C0E4FF;
+}
+
+#sidebar .featured li {
+	border-color:#340000;
+}
+
+#sidebar ul li:hover {
+	background-image: url(red/bg_sidebar_li.png);
+}
+
+#sidebar .featured li {
+	background-image: url(red/bg_star.png);
+}
+
+#sidebar .featured li:hover {
+	background-image: url(red/bg_star_over.png);
+}
+
+#sidebar .featured span {
+	color: #CEEBEB;
+}
+
+#sidebar .featured span a {
+	color: #8db2c3;
+	border-bottom:1px dashed #6a6790;
+}
+
+#sidebar .featured span a:hover {
+	color: #c0e4ff;
+}
+
+#sidebar #tag_cloud {
+	background-image: url(red/bg_tagcloud_dashes-trans.png);
+}
+
+.photos img {
+	background-image:url(red/bg_footer.jpg);
+}
+
+#wp-calendar caption {
+	background-image: url(red/bg_footer.jpg);
+	color: #C0E4FF;
+}
+
+#wp-calendar thead tr th {
+	color: #C0E4FF;
+}
+
+#footer {
+	background-image: url(red/bg_flower_bottom-trans.png);
+}
+
+#footer-out {
+	background: url(red/bg_footer.jpg);
+}
+
+#footer h2 {
+	color:#c0e4ff;
+}
+
+#footer a {
+	color:#E45A49;
+}
+
+#footer .contact td.left {
+	color:#c0e4ff;
+}
+
+#footer .subscribe form div {
+	background-image:url(red/bg_subscribe_field.jpg);
+}
+
+#footer .subscribe li {
+	background-image: url(red/icon_rss.gif);
+}
+
+#footer .popular ul li {
+	background-image: url(red/icon_checked-trans.png);
+}
+
+#copyright-out {
+	background-color:#2d0000;
+}
+
+#copyright {
+	color:#ffffff;
+}

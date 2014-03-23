@@ -1,0 +1,241 @@
+body {
+	color: #444444;
+	background-color: #dddddd !important;
+}
+
+#tile {
+	background-image: url(minimal/bg_tile.png);
+	background-repeat: repeat;
+	float: left;
+	width: 100%;
+}
+
+a:link, a:visited {
+	color:#222222;
+}
+
+a:hover, a:active, a.active {
+	color:#666666;
+}
+
+.nav_wrapper {
+	background-color: #ffffff;
+}
+
+#nav {
+	border: 1px solid #cccccc;
+}
+
+#nav li {
+	border-right-color: #cccccc;
+}
+
+#nav li a {
+	color: #111111;
+}
+
+#nav .current_page_item a,
+#nav li.sfHover,
+#nav li.current,
+#nav li a:focus, #nav li a:hover, #nav li a:active {
+	background-color: #444444;
+	color: #FFFFFF;
+}
+#nav .current_page_item ul li a {
+	background-color: #FFFFFF;
+	color: #111111;
+}
+
+#nav .current_page_item ul li a:hover {
+	background-color: #444444;
+	color: #FFFFFF;
+}
+
+#nav ul li.back {
+	background-color: #444444;
+	color: #FFFFFF;
+}
+
+#header {
+}
+
+#featured {
+
+}
+
+#featured img {
+	background-color:#FFFFFF;
+	border:1px solid #D3CFC3;
+	margin-bottom:0;
+	padding:4px;
+}
+
+.featured_text h2 a {
+		color:#181818;
+}
+
+.featured_post {
+	background-color:#444444 !important;
+	border-color: #333333;
+}
+
+.featured_post h2 a {
+	color: #ffffff;
+}
+
+.featured_post p {
+	color: #ffffff;
+}
+
+#about {
+	background-image: url(citylife/about_bg.png);
+	background-repeat: repeat;
+	border: 1px solid #ffffff;
+}
+
+#about p span {
+	
+}
+
+#about .about_image {
+	border:1px solid #1E2633;
+	background-color: #ffffff;
+}
+
+#about .about_button {
+	background-color: #333333;
+	color:#ffffff;
+	border: 1px solid #111111;
+}
+
+#about a.about_button:hover {
+	background-color:#ffffff;
+	color:#1E2633;
+}
+.box, #content .entry, .post_meta {
+	background-color:#ffffff;
+	border-color: #cccccc;
+}
+
+.box {
+}
+
+.entry {
+}
+
+.entry .navigation {
+	border-top-color: #cccccc;
+}
+
+.wp-caption {
+	background-color:#EEEEEE;
+	border:1px solid #DDDDDD;
+}
+
+#comments {
+	background-color:#ffffff;
+	border-color: #cccccc;
+}
+
+ol.commentlist li { }
+
+#comments .reply a {
+	background-color:#333333;
+	border-color: #444444;
+	color: #ffffff;
+}
+
+#comments h3 {
+	color: #333333;
+}
+
+ol.commentlist .comment {background-color:#eeeeee; border-color: #cccccc; }	
+
+ol.commentlist li.odd {
+	background-color:#dddddd;
+}
+
+#respond {
+	background-color:#ffffff;
+	border-color: #cccccc;
+}
+
+#commentform #submit {
+	background-color:#333333;
+	color:#FFFFFF;
+	border-color: #111111;
+}
+
+#respond #author, #respond #email, #respond #url, #respond #comment {
+	border: 1px solid #cccccc;
+	}
+
+#footer {
+	background-color:#bac1cc;
+}
+
+#footerWrap h3, #footerWrap h4 a {
+	color:#ffffff;
+}
+
+.post_meta {
+}
+
+
+.widget {
+	background-color:#333333;
+	border:1px solid #444444;
+	border-style: solid;
+ 	border-width: 1px;
+ 	color: #dddddd;
+}
+
+.widget a:link,.widget a:visited, .widget h2, .widget h3 {
+	color: #ffffff;
+}
+
+.widget h3 {
+	border-bottom-color: #555555;
+}
+
+.widget ul li {border-bottom-color: #555555;}
+
+.widget #searchform #s {
+	border-color: #555555;
+}
+
+#searchform #searchsubmit {
+	background-color:#444444;
+	border:1px solid #555555;
+	color:#FFFFFF;
+}
+
+#twitter {
+	background-color:#ffffff;
+	border-color: #cccccc;
+}
+
+#twitter_update_list {
+	color:#333333;
+}
+
+#twitter_update_list a {
+	color:#111111;
+}
+
+#wp-calendar {
+	color:#333333;
+}
+
+#wp-calendar caption {
+	color: #fff;
+}
+
+.credits {
+	color:#666666;
+}
+
+.credits a {
+	color:#222222;
+}
+

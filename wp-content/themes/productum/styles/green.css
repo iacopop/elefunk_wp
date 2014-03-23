@@ -1,0 +1,45 @@
+a, a:link, a:visited {
+	color:#0a721a;
+}
+
+a:hover, a:active, a.active {
+	color:#0a721a;
+}
+
+ul.sf-menu li.page_item a:hover, ul.sf-menu li.page_item.current_page_item a {
+	color:#70c74c;
+}
+
+#home #header {
+	background:transparent url(green/bg-header-home.jpg) no-repeat scroll 0 0 !important;
+}
+
+#home #header ul#featuredNav li a {
+	background-color:#1c7114;
+	border-color:#146916;
+	color:#FFFFFF;
+}
+
+#home #header ul#featuredNav li a:hover {
+	border-color:#0f5311;
+}
+
+ul#showcase li a:hover, ul#showcase li a.active {
+	border:1px solid #70c74c;
+}
+
+#footerWrap ul li.clickready.hover {
+	border: 1px solid #cccccc;
+}
+
+#footerWrap ul li a:hover, #wp-calendar caption {
+	background: #1c7114;
+	color: #fff;
+}
+
+#footerWrap ul li, #wp-calendar {
+	background-color: #eeeeee;
+	border: 1px solid #dddddd;
+	color:#333333;
+}
+

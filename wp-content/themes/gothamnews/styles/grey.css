@@ -1,0 +1,23 @@
+#header-out {
+	background: #ededed url(grey/bg_header_shadow.gif) repeat-x 0 bottom;
+	border-top: #f2f2f2 1px solid;
+}
+#header-bg {
+	background: url(grey/bg_header.jpg) no-repeat 0 0;
+}
+a {
+	color: #006DAD;
+}
+#main-menu li.current-cat, #main-menu li.current-cat-parent {
+	background: url(grey/bg_button_arrow.gif) no-repeat center 0;
+}
+
+#main-menu li.current-cat a, #main-menu li.current-cat-parent a {
+	background: url(grey/bg_menu_button.gif) no-repeat left top;
+}
+
+#main-menu li.current-cat a span, #main-menu li.current-cat-parent span {
+	background: url(grey/bg_menu_button.gif) no-repeat right top;
+}
+
+

@@ -1,0 +1,19 @@
+#categories-back {
+background:transparent url(newspaper/categories-back.gif) repeat-x scroll left center;
+}
+
+#content-back {
+background:transparent url(newspaper/content-back.gif) no-repeat scroll left top;
+}
+
+#left-top {
+background:transparent url(newspaper/left-top.gif) no-repeat scroll center top;
+}
+
+.category a {
+background:transparent url(newspaper/category.gif) no-repeat scroll left top;
+}
+
+h5.pink-links a:link, h5.pink-links a:active, h5.pink-links a:visited {
+color:#A23E31;
+}

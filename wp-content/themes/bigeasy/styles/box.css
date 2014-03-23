@@ -1,0 +1,305 @@
+/*
+-----------------------------------------------
+WooThemes - Textured Blog - Box
+author: dan rubin
+edited: 2009-04-22
+----------------------------------------------- */
+
+body {
+	background:#262626 url(box/bg-body.jpg);
+}
+
+/* top border and shadow */
+#wrapper {
+	padding-top:45px;
+	padding-bottom:50px;/* + 65px padding on #wrapper2 = 80px footer height for this theme */
+	background:url(box/bg-wrapper.png) repeat-x;
+}
+/* bottom border and shadow */
+#wrapper2 {
+	padding-bottom:65px;
+	background:url(box/bg-wrapper2.png) repeat-x bottom left;
+}
+/* content background texture */
+#wrapper3 {
+	border:none;
+	padding-top:20px;
+	padding-bottom:1px;
+	background:#d27b47 url(box/bg-wrapper3.jpg);
+}
+
+#container {
+	margin:-48px auto -40px;
+	background:url(box/bg-container.png) repeat-y;
+}
+
+#sidebar {
+	border:none;
+}
+#sidebar-border {
+	display:none;
+}
+
+#syndication {
+	background:rgba(0,0,0,.3);
+}
+
+#title {
+	color:#f9f9d2;
+}
+
+#nav li a {
+	color:#ffc8c9;
+}
+#nav li a:hover {
+	background:#862f31;
+	background:rgba(0,0,0,.2);
+}
+#nav li.current_page_item a {
+	color:#ffc8c9;
+	background:#5d2021;
+	background:rgba(0,0,0,.4);
+}
+
+/* modules */
+.module {
+	border-color:#dfa46c;
+	border-color:rgba(246,254,193,.2);
+}
+h2.module-title {
+	color:#dfa46c;
+	color:rgba(246,254,193,.3);
+}
+#sidebar .module {
+	border-color:#be696b;
+	border-color:rgba(255,200,201,.2);
+}
+h2.module-title {
+	color:#be696b;
+	color:rgba(255,200,201,.3);
+}
+#content .module h3,
+#content .module h3.entry-title,
+#content .module h3 a  {
+	color:#f6fec1;
+}
+.module p {
+	color:#f6fec1;
+}
+#content .module blockquote {
+	background-color:#a06438;
+	background-color:rgba(0,0,0,.2);
+}
+#sidebar .module .link-ancillary a {
+	color:#ffc8c9;
+	background:#3c140e;
+}
+#content .link-ancillary a {
+	color:#f6fec1;
+	background:#854722;
+}
+
+
+/* blog module */
+#content .module .entry-meta {
+	color:#884924;
+}
+.module .entry-meta a {
+	color:#5d351a;
+}
+.module .entry-meta a:hover {
+	color:#5d351a;
+}
+#content .blog h2,
+#content .blog h3,
+#content .blog p,
+#content .blog ul li {
+	color:#f9f9d2;
+}
+#content .blog ul li:before {
+	color:#884924;
+}
+.blog a {
+	background:#9f5d31;
+	color:#e2c78d;
+}
+.blog a:hover {
+	color:#f9f9d2;
+}
+#content .module .readmore a {
+	color:#f6fec1;
+	background:#854722;
+}
+
+
+/* blog comment form */
+#commentform label {
+	color:#884924;
+}
+#author,
+#email,
+#url,
+textarea#comment  {
+	color:#f9f9d2;
+	border-color:#855126;
+	background:#9f6336;
+	background:rgba(0,0,0,.15);
+}
+#comment-submit {
+	color:#cda069;
+	background:#76441c;
+	background:rgba(0,0,0,.4);
+}
+#comment-submit:hover {
+	background:#5c3211;
+	background:rgba(0,0,0,.6);
+}
+#respond a  {
+	color:#be8c50;
+}
+#respond a:hover  {
+	color:#cda069;
+}
+
+
+/* blog comments */
+ol.commentlist {
+	color:#f6fec1;
+}
+ol.commentlist li.comment {
+	background:#a06438;
+	background:rgba(0,0,0,.15);
+}
+ol.commentlist li.comment ul.children li {
+	border-color:#bd7a45;
+	background:#8e552b;
+	background:rgba(0,0,0,.15);
+}
+ol.commentlist .gravatar img {
+	border-color:#79471e;
+}
+#content ol.commentlist .author-info h3,
+#content ol.commentlist .author-info h3 a {
+	color:#cda069;
+}
+ol.commentlist .author-info p {
+	color:#be8c50;
+}
+ol.commentlist li:hover .author-info p {
+	color:#cda069;
+}
+ol.commentlist li:hover li .author-info p {
+	color:#be8c50;
+}
+ol.commentlist li li:hover .author-info p {
+	color:#cda069;
+}
+ol.commentlist .author-info .comment-type a {
+	color:#be8c50;
+}
+ol.commentlist .author-info .comment-type a:hover {
+	color:#cda069;
+}
+
+
+/* recent work / portfolio module */
+.portfolio-title,
+.portfolio.casestudy .portfolio-zoom {
+	background:#2d150a;
+	background:rgba(31,10,0,.7);
+	color:#f9f9d2;
+}
+a:hover .portfolio-title,
+.portfolio.casestudy:hover .portfolio-zoom {
+	background:#1e0d05;
+	background:rgba(31,10,0,.8);
+}
+.portfolio-readmore {
+	color:#bdba8a;
+}
+
+
+/* search */
+#search input {
+	background:#3a130e;
+	background:rgba(22,0,1,.7);
+	color:#ffc8c9;
+}
+#search input:hover {
+	background:rgb(22,0,1);
+	background:rgba(22,0,1,1);
+}
+#search #keywords {
+	background:#3a130e;
+	background:rgba(22,0,1,.7);
+	color:#b04646;
+}
+
+
+/* flickr */
+.flickr_badge_image a img {
+	background:#3b1b12;
+	border-color:#642c1e;
+}
+.flickr_badge_image a:hover img {
+	border-color:#3b1b12;
+}
+
+
+/* twitter */
+#twitter p {
+	color:#ffc8c9;
+}
+#twitter-meta a {
+	color:#662325;
+}
+#twitter-meta a em {
+	color:#401416;
+}
+
+
+/* bookmarks */
+#bookmarks li a {
+	background-color:#3a130e;
+	background-color:rgba(0,0,0,.6);
+}
+#bookmarks li a:hover {
+	background-color:#1e0705;
+	background-color:rgba(0,0,0,.8);
+}
+.bookmark-date {
+	color:#a75557;
+}
+.bookmark-title {
+	color:#eaa9ab;
+}
+.bookmark-url,
+.bookmark-meta {
+	color:#a75557;
+}
+
+
+/* categories */
+#categories li a {
+	background-color:#2e170d;
+	background-color:rgba(0,0,0,.7);
+}
+#categories li a:hover {
+	background-color:#241108;
+	background-color:rgba(0,0,0,.9);
+}
+.category-title {
+	color:#ef8643;
+}
+.category-info {
+	color:#994924;
+}
+
+
+/* tags */
+#tags a {
+	color:#a3562d;
+}
+#tags a:hover {
+	color:#4d2a13;
+}

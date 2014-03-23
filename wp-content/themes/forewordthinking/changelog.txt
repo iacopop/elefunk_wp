@@ -1,0 +1,21 @@
+*** Foreword Thinking Changelog ***
+
+2009.08.06 - version 2.0.0
+  * /functions/ - New WooThemes Framework (V1.0.4) (core theme functions)
+     functions.php
+  * includes/theme-comments.php - Moved from /functions/
+     includes/theme-functions.php
+     includes/theme-js.php
+     includes/theme-options.php
+     includes/theme-widgets.php
+     includes/sidebar-init.php
+  * includes/theme-options.php - Added new general & dynamic images options
+  * index.php - Fixed checkbox options ( $var == 'true' instead of just $var )
+    single.php
+    footer.php
+    sidebar.php
+  * index.php - Tweaked woo_get_image()
+    single.php
+
+2009.01.20 - version 1.0
+  * First release!

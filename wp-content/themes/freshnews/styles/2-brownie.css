@@ -1,0 +1,52 @@
+a{
+	color: #e8a02c;
+}
+a:hover{
+	color: #e8a02c;
+}
+body{
+	background: #534e47 url(brownie/bgr.jpg) repeat-x top;
+}
+#header h1{
+ 	background: url(brownie/logo-trans.png) no-repeat;
+}
+#search{
+	background: url(brownie/bgr-search.gif) no-repeat;
+}
+#topmenu li { border-left: 1px solid #dedbd1; }
+#topmenu li a {	color: #333333; }
+#topmenu li a:hover,#topmenu li.active a { color: #ff7800; }
+
+#footer{
+	background:#e4e2db url(brownie/bgr-footer.gif) repeat-x;
+}	
+#nav li ul li {
+    background: #e9e4d4 url(../images/bgr-box-trans.png) repeat-x top;
+}
+.box, .widget{
+	background: #f7f4ea url(../images/bgr-box-trans.png) repeat-x top left;
+}
+.box2{
+	background: #e9e4d4;
+}
+.box2 .spacer.white, .list2 li{
+	background: #f7f4ea;
+}
+.vidtabs .idTabs li a, .idTabs li a{
+	background:#f7f4ea;
+	color:#363636;
+}
+.vidtabs .idTabs li a:hover,
+.vidtabs .idTabs .selected,
+.idTabs li a:hover,
+.idTabs .selected,
+#sidebar h3 {
+	background:#d5d0bf;
+}
+span.continue-archives a { 
+	color:#e9e4d4; 
+}
+#footer, #footer a{
+	color: #e9e4d4;
+}
+

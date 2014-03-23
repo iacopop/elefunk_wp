@@ -1,0 +1,38 @@
+/*
+-----------------------------------------------
+"solid4" theme styles for ie7 and below
+author: dan rubin
+edited: 2009-04-09
+----------------------------------------------- */
+
+#wrapper3 {
+	border-top-color:#c68551;
+	border-bottom-color:#996338;
+}
+#sidebar {
+	border-top-color:#99503e;
+}
+#sidebar-border {
+	background:#813a29;
+}
+#sidebar .module h2.module-title {
+	color:#a75c4c;
+}
+#content .module h2.module-title {
+	color:#cda069;
+}
+#bookmarks li a {
+	background-color:#3a130e;
+}
+#bookmarks li a:hover {
+	background-color:#1e0705;
+}
+#categories li a {
+	background-color:#2e170d;
+}
+#categories li a:hover {
+	background-color:#241108;
+}
+#content .module blockquote {
+	background-color:#a06438;
+}

@@ -1,0 +1,38 @@
+#categories-back {
+background:transparent url(wood/categories-back.gif) repeat-x scroll left center;
+}
+
+#categories-back li, #categories-back li.blank {
+background:transparent url(wood/category-divider.gif) no-repeat scroll right top;
+}
+
+#categories-back a:hover {
+background:transparent url(wood/category-arrow.gif) no-repeat scroll center bottom;
+}
+
+#content-back {
+background:transparent url(wood/content-back.gif) no-repeat scroll left top;
+}
+
+#left-top {
+background:transparent url(wood/left-top.gif) no-repeat scroll center top;
+}
+
+#navigation {
+background:transparent url(wood/navigation.gif) repeat-x scroll 0 0;
+}
+
+#navigation-links a:hover {
+color:#ECE6C0;
+}
+#navigation-links a {
+color:#7B6C55;
+}
+
+#categories-back a:hover {
+color:#FFFFFF;
+}
+
+#categories-back a {
+color:#C3BD9E;
+}

@@ -1,0 +1,159 @@
+body {
+	background-color: #ffffff;
+}
+
+#tops, #bottom {
+	background: #222222;	
+}
+
+#left, #right {
+	background: #222222;	
+}
+
+/* DEFAULT ALTERNATING COLOURS */
+
+.post_bg1 { 
+	background-color:#CC0099; /*pink*/
+	border: 1px solid #A7007D;
+}
+.post_bg2 {
+	background-color:#FF0000; /*red*/
+	border: 1px solid #C90000;
+}
+.post_bg3 {
+	background-color:#FF9900; /*orange*/
+	border: 1px solid #D57F00;
+}
+.post_bg4 {
+	background-color:#176AD3; /*blue*/
+	border: 1px solid #125CB8;
+}
+.post_bg5 {
+	background-color:#009933; /*green*/
+	border: 1px solid #007427;
+}
+.post_bg6 {
+	background-color:#9900FF; /*purple*/
+	border: 1px solid #8000D3;
+}
+
+/* ---- */
+
+.row_dot_border {
+	background-image: url(white/row_dot_border.png);
+}
+
+p.subscribe {
+	color:#222222;
+}
+
+.page_block, .content .post, .commentlist li {
+	background-image: url(white/row_dot_border.png);
+}
+
+.sidebar {
+	background-image: url(white/col_dot_border.png);
+}
+
+.widget {
+	background-color:#222222;
+	color:#FFFFFF;
+}
+
+.tagcloud {
+	background-color:#222222 !important;
+	color:#FFFFFF;
+}
+
+.widget a, .widget h2, .widget h3, .widget li, .widget p {
+	color:#FFFFFF !important;
+}
+
+.widget li {
+	border-top: 1px solid #ffffff;
+}
+
+.about {
+	background-color:#eeeeee !important;
+}
+
+.about h3, .about p {
+	color:#222222 !important;
+}
+
+.about a {
+	color:#000000 !important;
+}
+
+.page_block {
+	background-image: url(white/row_dot_border.png);
+}
+
+.footer {
+	background-image: url(white/col_dot_border.png);
+}
+
+a, h1, h2, h3, h4, h5, h6  {
+	color:#222222;
+}
+
+p.issue a {
+	color:#888888;
+}
+
+.page_block p, .footer p {
+	color:#666666;
+}
+
+.post h2 a {
+	color:#222222;
+}
+
+.post p {
+	color:#666666;
+}
+
+.footer a {
+	color:#222222;
+}
+
+.sponsor {
+	background-color:#222222;
+	color:#FFFFFF;
+}
+
+.sponsor h3 {
+	color:#FFFFFF;
+}
+
+.featured_date p, .featured_content p {
+	color:#FFFFFF;
+}
+
+.image p {
+	color: #333333;
+}
+
+.navigation a {
+	color:#222222;
+}
+
+.comments h2, .trackbacks h2, .comment_list li, .trackbacks li {
+	border-bottom-color: #ffffff;
+}
+
+.comment-author {
+	color:#000000 !important;
+}
+
+.post_meta a {
+	color:#777777;
+}
+
+.post_meta a:hover {
+	color:#222222;
+}
+
+.footer {
+	color:#000000 !important;
+}

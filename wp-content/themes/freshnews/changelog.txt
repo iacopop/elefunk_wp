@@ -1,0 +1,132 @@
+*** Fresh News Changelog ***
+
+2009.07.28 - version 2.0.4
+  * /functions/ - Core framework upgrade to V.1.0.4
+  * /includes/theme-options.php - Added Custom CSS backend option
+  * /includes/theme-functions.php - Removed duplicate get_page_id() function
+
+2009.07.27 - version 2.0.3
+  * single.php - Authors gravatar fixed
+
+2009.06.30 - version 2.0.2
+  * includes/theme-widgets.php - Added twitter widget
+  * footer.php - Added twitter's javascript
+
+2009.06.30 - version 2.0.1
+  * includes/theme-comments.php - Fixed styling for comments
+
+2009.06.26 - version 2.0
+  * functions.php - New Framework
+  * /functions/*.* - Added new framework files
+  * /functions/images/*.* - Added new framework files
+  * /includes/*.* - Added new framework files
+  * /includes/js/*.* - Added new framework files
+  * header.php - Changes: Added pngfix.js, removed custom logo code, added global variables, removed custom gravatar, edited feed links, edited logo div container and contents
+  * style.css - Changes: #header *. Added new styles to bottom of style.css 
+  * index.php - Completely revamped, need to replace whole file
+  * sidebar.php - Recoded widgets and added widgetized areas. 
+  * archive.php - Added woo_get_image / woo_get_embed / page navigation
+    single.php
+    tag.php
+	search.php
+	imagegallery.php
+  * ---------- FILES THAT HAVE BEEN REMOVED --------------
+  * home.php - DELETE! You need to remove this in your old version.
+  * /layouts/*.* - DELETE! 
+  * /includes/video.php	- DELETE! 
+  * /includes/versions.php - DELETE!
+  * /includes/featured.php - DELETE!
+  * /includes/stdblog.php - DELETE!
+  * /functions/custom.php - DELETE!
+  * /ads/*.* - DELETE! Moved ads to /includes/theme-widgets.php
+
+2009.06.22 - version 1.5.2
+  * includes/js/suckerfish.js - fixed IE6 javascript bug
+
+2009.06.11 - version 1.5.1
+ * functions.php - Upgrade (get_category fix)
+ * includes/js/tabs.js - updated idTabs to new version to work with new jquery in 2.8
+
+2009.02.10 - version 1.5
+	* functions.php - Moved javascript loading to woothemes_add_javascript()
+	  header.php - removed js include
+	  footer.php - removed js include
+
+2009.01.27 - version 1.4.4
+	* comments.php - Fixed comment navigation
+
+2009.01.27 - version 1.4.3
+	* style.css - Page dropdowns (replace .nav1)
+	* includes/js/suckerfish.js
+	* header.php - (depth=3)
+	* styles/*.css
+	
+2008.12.29 - version 1.4.2
+	* comments.php - Fixed logout link
+	* comments-legacy.php - Fixed. Used for version before WP2.7. 
+
+2008.12.22 - version 1.4.1
+	* comments.php - Separated comments and trackbacks (line 21-30)
+	  single.php - <?php comments_template('', true); ?>
+
+2008.12.18 - version 1.4
+  * functions.php - WP 2.7 styling on admin panel
+  * comments.php - WP 2.7 Threaded comments
+    comments-legacy.php
+	functions.php
+	style.css (COMMENTS section line 543)
+	header.php (line 30)	
+  * style.css - Image caption styling (.entry .wp-caption)
+
+2008.10.22 - version 1.3.1
+  * imagegallery.php - Set is_home = false so 300x250 ad isn't shown if option is set
+  * archives.php - Set is_home = false so 300x250 ad isn't shown if option is set
+
+2008.10.22 - version 1.3
+  * header.php - use internal jquery
+  * footer.php - removed jquery include
+  * thumb.php - new version
+  * layouts/2-blog.php - fixed archive link
+
+2008.10.08 - version 1.2.4
+  * functions/custom.php - Fixed rare case of custom field update multiplying
+  * header.php - Fixed IE6 bug with old logo over custom logo
+
+2008.10.02 - version 1.2.3
+  * functions.php - Changed post_title to post_name
+
+2008.09.04 - version 1.2.2
+  * style.css - Fixed flickr badge style error
+
+2008.09.02 - Version 1.2.1
+  * functions.php - Fixed archives variable name
+  * includes/version.php - Archive variable with page ID 
+  * layouts/default.php - Archive variable with page ID
+
+2008.08.27 - version 1.2
+  * header.php - Added <div id="background">
+  * footer.php - Added </div>
+  * styles/* - Added grunge backgrounds
+
+2008.08.21 - Version 1.1.1
+  * functios.php - Fixed default values so they don't revert after saving
+  * style.css - Corrected version number
+
+2008.08.04 - Version 1.1
+
+  * changelog.txt - Added changelog and revised version number
+  * includes/easytube.php - Added easytube integrated
+  * includes/test.php - Added phpinfo() file for debugging resizer on buggy hosts
+  * includes/popular.php - Display popular posts in sidebar.php
+  * includes/comments.php - Display recent comments in sidebarh.php
+  * sidebar.php - Changed tabs to use popular.php and comments.php
+  * header.php - fixed <? to <?php 
+  * functions.php - Added flickr options
+  * functions.php - Added pages dropdown to archive
+  * functions.php - Fixed google analytics slashes when saving
+  * functions.php - No <br/> before description of checkboxes
+  * functions.php - Author info is now an option
+  * includes/featured.php - #featureditem -> .featureditem
+  * header.php - Added depth=1 to top page menu
+  * includes/ads-management.php - Fixed randomizer
+  * functions/custom.php - Custom settings panel in WP post window

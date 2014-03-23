@@ -1,0 +1,43 @@
+*** Cushy Changelog ***
+
+2009.08.06 - version 2.0.0
+  * /functions/ - New WooThemes Framework (V1.0.4) (core theme functions)
+     functions.php
+  * includes/theme-comments.php - Moved from /functions/
+     includes/theme-functions.php
+     includes/theme-js.php
+     includes/theme-options.php
+     includes/theme-widgets.php
+     includes/sidebar-init.php
+  * includes/theme-options.php - Added new general & dynamic images options
+  * archive.php - Fixed checkbox options ( $var == 'true' instead of just $var )
+    single.php
+    page.php
+    template-archives.php
+  * header.php - Tweaked navigation include
+  * header.php - Fixed featured page include
+    home.php
+
+2009.03.24 - version 1.0.5
+	* style.css - fixed IE styling for submit button ( removed background from #submit )
+	* comments.php - added src= to submit input
+
+2009.02.23 - version 1.0.4
+	* home.php - made custom homepage template show up by default.   
+	  template-homepage.php - removed file
+	* header.php - excluding featured tabber pages & featured page from top navigation automatically
+	  functions/admin-setup.php
+	* includes/js/tabs.js - included correct version for tabs to work with WP
+
+2009.02.16 - version 1.0.3
+	* header.php - removed javascript
+	  functions.php - added javascript
+
+2009.02.13 - version 1.0.2
+	* header.php - added js again
+	  functions.php - removed js load
+
+2009.02.13 - version 1.0.1
+	* includes/news.php - fixed bug in query
+	* header.php - removed javascript
+	  functions.php - added javascript

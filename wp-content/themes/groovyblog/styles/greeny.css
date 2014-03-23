@@ -1,0 +1,8 @@
+/* greeny style */
+
+body { background: url(greeny/bg-tile.jpg) repeat top center; }
+#wrap {	background: url(greeny/bg.jpg) repeat-x top center; }
+a { color: #a4b464; }
+#archive .box2 .post-details, #main p.post-details, #comments ol.commentlist .comment-meta a {color:#899169;}
+#bottom .subscribe .rss { background: url(greeny/ico-subscribe.png) no-repeat center left; }
+#bottom #recentcomments li { background:transparent url(greeny/ico-comment.png) no-repeat scroll left center; }

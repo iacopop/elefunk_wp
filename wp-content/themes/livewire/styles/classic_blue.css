@@ -1,0 +1,233 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #666666;
+	background-color: #ffffff;
+}
+h1, h2, h3, h4, h5 {
+	font-family: georgia, "times new roman", serif;
+}
+a{
+	color: #000;
+}
+.subcol h2{
+	color: #fff;
+}
+.posted_on {
+	color: #00417b;
+}
+#nav{
+	background-color:#dde9f2;
+	border-top:1px solid #00417b;
+	border-bottom:1px solid #00417b;
+}
+#nav-right, #nav-right a {
+	color:#000000;
+}
+#nav2 li a {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.nav2 li:hover,
+.nav2 li.sfHover,
+.nav2 li.current,
+.nav2 a:focus, .nav2 a:hover, .nav2 a:active {
+	color: #333333;
+}
+#nav ul  li a {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.col1_home{
+	background-color:#ffffff;
+	width: 375px;
+	margin-right:10px !important;
+	margin-right:8px;
+}
+.col1{
+	width: 628px;
+	margin-right:8px !important;	
+}
+.col2 {
+	float:right !important;
+}
+.box{
+	width:375px;
+}
+.col_mid_home {
+	width:243px;
+	float:left;
+	margin-right:8px !important;
+}
+
+.mid_box {
+	width:231px;
+	border: 1px solid #cccccc;
+	background-color:#f7f7f7;
+	padding:5px;
+}
+.col_mid_home .category {
+	background-image: url(classic_blue/mid_col_h2_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+
+.col_mid_home .category span {
+	background-color:#00417b;
+	color:#FFFFFF;
+}
+.col2_box {
+	background-color:#eeeeee;
+	border: 1px solid #CCCCCC;
+}
+#featured .postmeta {
+	margin-bottom:15px;
+}
+#nav ul  li a {
+	color: #000000;
+}
+#nav-left li ul li
+ {
+	background-color: #DDE9F2;
+	color: #000000;
+	border-bottom:1px solid #00417b;	
+	border-left:1px solid #00417b;	
+	border-right:1px solid #00417b;	
+}
+#nav-left li ul li a
+ {
+	color: #000000;
+}
+
+#nav .current_page_item {
+	background-color: #00417b;
+	color: #FFFFFF;
+}
+
+#nav .current_page_item a {
+	color: #FFFFFF;
+}
+
+#nav ul  li.back {
+	background-color: #00417b;
+	color: #FFFFFF;
+}
+
+#nav2 {
+	background-color: #ffffff;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #00417b;
+}
+#nav2 li a:hover {
+	background:#00417b;
+	color:#fff;
+}		
+.idTabs li a:hover,
+.idTabs .selected{
+	color: #FFFFFF;
+	background-color: #00417b;
+}
+.flickr h2, .widget h2, .ads h2, #video-frame h2 {
+	background-color: #00417b;
+	color: #FFFFFF;
+}
+#video-frame {
+	width:373px;
+	border: 1px solid #cccccc;
+	margin-top:15px;
+}
+#video-frame h3 {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+#footer a{
+	color: #00417b;
+}
+#archivebox {
+	background-color: #f7f7f7;
+	border: 1px solid #cccccc;
+	width:618px;
+}
+#archivebox h4 em, #archivebox h2 em, #archivebox h3 em{
+	color:#00417b;
+}
+.list1 li {
+	background: url(classic_blue/ico-star.gif) no-repeat left center !important;
+}
+.list3 li{
+	background: url(classic_blue/ico-mostcomm.gif) no-repeat left center !important;
+}
+#rss h2{
+	background-color: #f5cccc;
+	border: 1px solid #00417b;
+	color:#000000;
+}
+#footer{
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+}
+#search{
+	background-color:#f7f7f7;
+	border: 1px solid #cccccc;
+}
+#search input{
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	color: #000000;
+}
+#search .btn{
+	color:#FFFFFF;
+	background-color:#00417b;
+}
+
+.idTabs{
+	background-color: #FFFFFF;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #BDBDBD;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #BDBDBD;
+}
+
+.idTabs li{
+	background: #ffffff;
+	color: #000000;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #BDBDBD;
+}
+
+#sidetabber ul{
+	border:1px solid #BDBDBD !important;
+	background-color: #FFFFFF;
+}
+.flickr{
+	border: 1px solid #BDBDBD;
+	background-color: #ffffff;
+}
+.ads{
+	border: 1px solid #BDBDBD;
+	background-color:#FFFFFF;
+}
+.widget {
+	background-color:#FFFFFF;
+	border: 1px solid #BDBDBD;
+}
+.author_info {
+	background-color: #f7f7f7;
+	border: 1px solid #cccccc;
+}
+.postmeta{
+	color: #666666;
+	background-color: #FFFFFF;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+.lead-image-wrapper h2 {
+	background-color:#00417b;
+}
+.lead-image-wrapper h4 {
+	background-color:#00417b;
+}

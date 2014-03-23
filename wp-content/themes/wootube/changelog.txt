@@ -1,0 +1,76 @@
+*** WooTube Changelog ***
+
+2009.08.04 - version 2.0.3 
+  * includes/sidebar-init.php - re-added sidebar top widgetized area
+
+2009.07.28 - version 2.0.2
+  * /functions/ - Core framework upgrade to V.1.0.4
+  * /includes/theme-options.php - Added Custom CSS backend option
+  * /includes/theme-functions.php - Removed duplicate get_page_id() function
+
+2009.07.23 - version 2.0.1
+  * archive.php - Moved the closing col-left </div> to line 52 to fix layout bug
+
+2009.07.17 - version 2.0
+  * functions.php - New framework
+  * functions/* - New framework files
+  * includes/* - New framework files
+  * style.css - added page navigation CSS (line 707-730) 
+  * layout-home.php - changed woo_get_image() function
+    archive.php
+  * single.php - changed woo_get_custom() to woo_get_embed()
+    404.php
+	archive-single.php
+	layout-home.php
+	layout-single.php
+	page.php
+  * header.php - changed email subscribe link (line 58), added equals "true" (line 47)
+  * includes/embed.php - added "true" (line 01)
+  * index.php - added equals "true" (line 4)
+  * layout-home.php - added equals "true" (line 11, 36, 41), fixed woo_get_image() (line 57)
+  * layout-single.php - added equals "true" (line 11, 36, 41)
+  * archive-single.php - added equals "true" (line 32)
+  * archive.php - added equals "true" (line 4), fixed woo_get_image() (line 21)
+  * page.php - added equals "true" (line 30)    
+  * single.php - added equals "true" (line 32)    
+
+2009.06.25 - version 1.1.3
+  * sidebar.php - Added missing "Sidebar Top" widgetized area
+
+2009.03.02 - version 1.1.2
+	* style.css - Added missing twitter styling
+
+2009.02.24 - version 1.1.1
+	* layout-home.php - added page navigation
+	  style.css - tweaked styles .more-entries and .Nav *
+	  archive.php
+	* functions/admin-options.php - Added option to show video browser only on single posts
+	  sidebar.php
+	* functions/admin-theme-page.php - fixed bug with loading alternative styles in the admin panel
+
+2009.02.21 - version 1.1
+	* MAJOR UPDATE - OPTIONAL HOMEPAGE ADDED
+	  style.css - added section /* Homepage layout */ 
+	  index.php - moved code to layout-single.php
+	  layout-single.php
+	  layout-home.php
+	  search.php
+	  archive.php
+	  archive-single.php
+	  header.php
+	  styles/*.css - added .video-box
+	  cache/ - added for image resizer
+	  functions/custom.php
+	  functions/admin-setup.php
+ 	  functions/admin-options.php
+	  images/bg_box_bot.gif
+	  images/bg_comment_cloud.png
+	* page.php - removed comments
+
+2009.02.15 - version 1.0.1
+	* header.php - added class="wootube" to body tag to hinder admin panel taking same style as theme
+	  styles/*.css
+	* sidebar.php - excluded pages from video browser
+	
+2009.01.29 - version 1.0
+	* First release!

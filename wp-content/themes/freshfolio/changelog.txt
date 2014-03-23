@@ -1,0 +1,43 @@
+*** Fresh Folio Changelog ***
+
+2009.06.11 - version 1.1.2
+ * includes/wigets.php - Fixed twitter wiget
+ * includes/footer.php - Added Twitter javascript
+
+2009.06.11 - version 1.1.1
+ * functions.php - Upgrade (get_category fix)
+
+2008.10.22 - version 1.1
+  * thumb.php - new version
+
+2008.10.16 - version 1.0.7
+  * header.php - fixed the about me link 
+
+2008.10.09 - version 1.0.6
+  * includes/featured.php - Fixed link to post on VIEW if no url in custom field
+  * functions/custom.php - Fixed bug with update of custom fields
+
+2008.10.02 - version 1.0.5
+  * functions.php - Changed post_title to post_name
+
+2008.09.30 - version 1.0.4
+  * index.php - Added div with entry class 
+  * page.php - Added div with entry class
+
+2008.09.23 - version 1.0.3
+  * single.php - Image now links to image instead of article
+  * style.css - border:0 on twitter div ul
+
+
+2008.09.23 - version 1.0.3
+  * single.php - Image now links to image instead of article
+
+2008.09.05 - version 1.0.2
+  * includes/js/unitpngfix.js - New version of png fix for ie6
+
+2008.09.04 - version 1.0.1
+  * style.css - Fixed flickr badge style error
+  * includes/widgets.php - Fixed flickr badge style error
+
+2008.09.01 - version 1.0
+  * First release!

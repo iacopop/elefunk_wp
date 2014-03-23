@@ -1,0 +1,28 @@
+/*  dark style */
+
+/*  Images */
+body.wootube { 
+	background: #353535 url(dark/bg.gif) repeat-x 0 0;
+}
+#wrap {
+	background:url(dark/bg_gradient.png) no-repeat scroll center 29px;
+}
+/*  Colors */
+a {
+	color: #603b5b;
+}
+#main, #sidebar ul, #sidebar .textwidget, div#video-browser-holder{
+	border:5px solid #444444;
+}
+#sidebar h2 {
+	background: #222222;
+}
+#main-content .post h4.continue a {
+	background: #668d46;
+}
+#footer-out {
+	background: #000;
+}
+
+
+

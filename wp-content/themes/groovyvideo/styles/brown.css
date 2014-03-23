@@ -1,0 +1,8 @@
+/* brown style */
+
+body { background: url(brown/bg-tile.jpg) repeat top center; }
+#wrap {	background: url(brown/bg.jpg) repeat-x top center; }
+a { color: #bca670; }
+#archive .box2 .post-details, #main p.post-details, #comments ol.commentlist .comment-meta a {color:#94947c;}
+#bottom .subscribe .rss { background: url(brown/ico-subscribe.png) no-repeat center left; }
+#bottom #recentcomments li { background:transparent url(brown/ico-comment.png) no-repeat scroll left center; }

@@ -1,0 +1,56 @@
+/*  
+Style: grungefloral
+*/
+
+body{ background: url(grungefloral/bgr-tile.gif) #edece4 repeat-x top; color: #555555; }
+#background { background: url(grungefloral/bgr.jpg) no-repeat top center; }
+a{ color: #aaaaaa; }
+a:hover{}
+input,select,textarea{ border: #999999 1px solid; }
+#header{ background: none; color: #d8d8d8; }
+#header #description a { color: #BCCE62; }
+#logo{ border-right: 1px solid #40403f; }
+#logo h1 a{	border-bottom: 1px solid #40403f; }
+#logo h2{ color: #e6e6e6; }
+#latest .pic img{ border: 5px solid #444444; }
+#latest .pic img:hover { border: 5px solid #555555; }
+#latest .demo a{ color: #e6e6e6; }
+#nav1 li a{	color: #d8d8d8; }
+#nav1 li.current_page_item a span{ color: #ffffff; }
+#nav1 li a:hover{ color: #ffffff; }
+#sidebar{ border-left:1px solid #e6e6e6; }
+.box, #searchform{ background: url(grungefloral/box-bgr.jpg) #ffffff repeat-x top left; border: 1px solid #fefefe; }
+.box a { color:#BCCE62; }
+.box h3{ color: #555555; }
+.box h3 a{ color: #555555; }
+.box .pic img{ background: #fcfbfc;	border: 1px solid #f1f1e9; }
+.box .pics img{	border: 1px solid #f1f1e9;}
+.box .pic img:hover, .box .pics img:hover{ background: #ffffff;	border: 1px dotted #bbbbbb; }
+#sidebar h2, #columns h2{ color: #5f5f43; font-weight:bold; }
+.date{ color: #aaaaaa; }
+.date a{ color: #aaaaaa; }
+.comment{ background: url(../images/c-grey.png) no-repeat; color: #ffffff; }
+.box .comment{ background: url(../images/c-green.png) no-repeat; color: #ffffff; }
+.comment a{	color: #ffffff; }
+.prev-entries {	background:none; border-bottom:1px solid #ddd; }
+.headline{ background:none; border-bottom:1px solid #ddd; }
+.headline h3 a{	color: #555555; }
+.widget ul{	background:none; border-top:1px solid #ddd; }
+.widget ul li{ background:none; border-bottom:1px solid #ddd; }
+.widget h3{	color: #555555; }
+.widget h3 a{ color: #555555; }
+#footer{ background:none; border-top:1px solid #ddd; color: #aaaaaa; }
+#footer a{ color: #aaaaaa; }
+#columns h3.commh3 { color:#333333 !important; }
+#columns .commentmetadata a { color:#333333; }
+#columns ol.commentlist .comment-text{	background:#F8F8F4;	border:1px solid #e6e6e6; }
+input#submit {color:#363636; border: 1px solid #e6e6e6;	background:#F5F4F0; }
+.gravatar {	background:#FFFFFF none repeat scroll 0 0; border:1px solid #e6e6e6; }
+input, select, textarea { border:1px solid #e6e6e6; }
+.entry img { background:#F8F8F4; border: solid 1px #e6e6e6;	}
+.hl{ background:none; border-top:1px solid #ddd; }
+.box .hl{ border-top: 1px solid #e6e6e6; }
+#nav1 li.current_page_item a{ background: url(grungefloral/tab-hover.gif) no-repeat left; }
+#nav1 li.current_page_item a span{ background: url(grungefloral/tab-hover.gif) no-repeat right; color: #ffffff; }
+#nav1 li a:hover{ background: url(grungefloral/tab-hover.gif) no-repeat left; color: #ffffff; }
+#nav1 li a:hover span{ background: url(grungefloral/tab-hover.gif) no-repeat right; }

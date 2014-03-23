@@ -1,0 +1,38 @@
+/*
+-----------------------------------------------
+"default" theme styles for ie7 and below
+author: dan rubin
+edited: 2009-04-07
+----------------------------------------------- */
+
+#wrapper3 {
+	border-top-color:#162c35;
+	border-bottom-color:#0b1a20;
+}
+#sidebar {
+	border-top-color:#9cb06c;
+}
+#sidebar-border {
+	background:#879e55;
+}
+#sidebar .module h2.module-title {
+	color:#b1c386;
+}
+#content .module h2.module-title {
+	color:#475a64;
+}
+#bookmarks li a {
+	background-color:#3a4326;
+}
+#bookmarks li a:hover {
+	background-color:#0e1206;
+}
+#categories li a {
+	background-color:#051118;
+}
+#categories li a:hover {
+	background-color:#000205;
+}
+#content .module blockquote {
+	background-color:#0a161c;
+}

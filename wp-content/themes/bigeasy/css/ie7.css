@@ -1,0 +1,77 @@
+/*
+-----------------------------------------------
+styles for ie7 and below
+author: dan rubin
+edited: 2009-04-22
+----------------------------------------------- */
+
+#sidebar {
+    margin-top:-6px;
+}
+#wrapper3 {
+    zoom:1;
+}
+#twitter {
+	border-top:1px solid transparent;
+}
+h2.module-title,
+h2.module-title {
+    margin-bottom:3px;
+}
+#nav {
+    zoom:1;
+}
+#nav li {
+    float:left;
+    clear:left;
+    width:100%;
+}
+#content .module ul {
+	list-style:disc;
+	padding-left:.75em;
+}
+#tags {
+    line-height:30px;
+}
+#bookmarks li a {
+	margin-bottom:0;
+}
+#content #categories,
+#content #portfolio-list {
+    overflow:hidden;
+    padding:0;
+}
+#content #portfolio-list {
+    padding:0;
+    list-style:none;
+}
+#sidebar .module .link-ancillary,
+#content .link-ancillary {
+	top:10px;
+}
+#poweredby-woothemes strong {
+    cursor:pointer;
+}
+#syndication ul li a {
+    line-height:1.4;
+}
+#poweredby-woothemes:hover,
+#poweredby-wordpress:hover {
+	background-color:rgb(19,19,19);
+}
+#syndication ul li a:hover {
+	background-color:rgb(14,14,14);
+}
+
+#sidebar .module .link-ancillary,
+#content .link-ancillary,
+#sidebar .module .readmore,
+#content .module .readmore,
+#content .module .entry-meta,,
+#content ol.commentlist .author-info p,
+#content #portfolio-list li,
+#content #categories li,
+#twitter-meta,
+#tags {
+    font-family:"helvetica neue", helvetica, arial, sans-serif;
+}

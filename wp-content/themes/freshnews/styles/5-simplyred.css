@@ -1,0 +1,28 @@
+a { color: #e8a02c; }
+a:hover{ color: #e8a02c; }
+
+body{ background: #c7c8b8 url(simplyred/bgr.jpg) repeat-x top; }
+#header h1 { background: url(simplyred/logo-trans.png) no-repeat; }
+#search{ background: url(simplyred/bgr-search.gif) no-repeat; }
+
+.nav1 a { color: #cccccc; }
+.nav1 li.active a, .nav1 li a:hover, .current_page_item a {	color: #e8a02c; }
+.subscribe{	color: #cccccc; float:right;}
+.subscribe a { color: #e8a02c; }
+#topmenu li { border-left: 1px solid #dedbd1; }
+#topmenu li a {	color: #333333; }
+#topmenu li a:hover,#topmenu li.active a { color: #ff7800; }
+#nav li ul li { background: #dbd3be; border-bottom:1px solid #e6e6e6; border-left:1px solid #e6e6e6; border-right:1px solid #e6e6e6; }
+
+#footer { background:#e4e2db url(simplyred/bgr-footer.gif) repeat-x; }	
+#footer, #footer a{	color: #cccccc; }
+
+.box, .widget {	background: #f7f4ea url(../images/bgr-box-trans.png) repeat-x top left; }
+.box2 {	background: #e9e4d4 url(../images/bgr-box-trans.png) repeat-x top left; }
+.box2 .spacer.white, .list2 li { background: #f7f4ea; }
+
+.vidtabs .idTabs li a, .idTabs li a { background:#f7f4ea; color:#363636; }
+.vidtabs .idTabs li a:hover, .vidtabs .idTabs .selected, .idTabs li a:hover, .idTabs .selected, #sidebar h3 { background:#d5d0bf; }
+
+span.continue-archives a { color:#777777; }
+

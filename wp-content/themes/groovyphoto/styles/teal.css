@@ -1,0 +1,8 @@
+/* teal style */
+
+body { background: url(teal/bg-tile.jpg) repeat top center; }
+#wrap {	background: url(teal/bg.jpg) repeat-x top center; }
+a { color: #72b7bc; }
+#archive .box2 .post-details, #main p.post-details, #comments ol.commentlist .comment-meta a {color:#739092;}
+#bottom .subscribe .rss { background: url(teal/ico-subscribe.png) no-repeat center left; }
+#bottom #recentcomments li { background:transparent url(teal/ico-comment.png) no-repeat scroll left center; }

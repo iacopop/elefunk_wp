@@ -1,0 +1,6 @@
+#pagenav li ul {
+	padding-top:0px;
+}
+#pagenav li:hover ul, #pagenav li.sfhover ul {
+	margin-top: -9px;
+}

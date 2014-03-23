@@ -1,0 +1,293 @@
+/* 00 - GLOBAL ELEMENTS
+/* ----------------------------------------------*/
+
+body {
+	background:#33281f url(rust/background-repeat.gif) repeat-x top left;
+	color:#465159;
+}
+
+/* 01 - TYPOGRAPHY
+/* ----------------------------------------------*/
+
+
+.post-content h1 {
+	color:#aa896e;
+	border-bottom:1px solid #CCCCCC;
+}
+
+.post-content h2 {
+	color:#aa896e;
+}
+
+h2 span {
+	color:#aa896e;
+}
+
+/* Post Title */
+h3 {
+	color:#3e2c33;
+}
+
+	.post-content h3 {
+		color:#46372e;
+	}
+
+	h3 a:link, h3 a:visited, h3 a:active {
+		color:#3e2c33;
+	}
+
+/* Sidebar */
+h4 {
+	color:#fee4d2;
+	background:url(rust/sidebar-top.gif) no-repeat bottom center;
+}
+
+	.post-content h4  {
+		color:#493d35;
+	}
+
+/* Lifestream Date */
+h5 {
+	color:#d8b99f;
+	border-bottom:2px solid #4f3f34;
+}
+
+a:link, a:visited, a:active {
+	text-decoration:none;
+	color:#2e2e2e;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+/* Header
+/* -------------- */
+
+#about {
+	color:#847263;
+}
+
+	#about a:link, #about a:visited, #about a:active {
+		color:#ae907e;
+	}
+	
+	#about a:hover {
+		color:#d3b7a6;
+	}
+	
+
+/* Top Navigation
+/* -------------- */
+
+#categories li a {
+	color:#fee4d2;
+}
+
+	#categories li:hover, #categories li.current_page_item {
+		background:url(rust/cat-hover-left.gif) no-repeat bottom left;
+	}
+	
+	#categories li:hover a, #categories li.current_page_item a {
+		background:url(rust/cat-hover-right.gif) no-repeat bottom right;
+	}
+
+	#categories li a span {
+		color:#e5d6cd;
+	}
+
+	#categories li:hover a, #categories li:hover a span, #categories li.current_page_item a, #categories li.current_page_item a span {
+		color:#FFF;
+	}
+	
+#subscribe {
+	background:url(rust/rss.gif) no-repeat center right;
+	color:#FFF;
+}
+
+	#subscribe a:link, #subscribe a:visited, #subscribe a:active {
+		color:#ffffff;
+	}
+	
+			#navigation li.current_page_item a:link,
+			#navigation li.current_page_item a:visited,
+			#navigation li.current_page_item a:active {
+				background:url(rust/nav-right.png) no-repeat top right;
+				color:#252b2f;
+			}
+	
+			#navigation li.current_page_item a:link span,
+			#navigation li.current_page_item a:visited span,
+			#navigation li.current_page_item a:active span {
+				background:url(rust/nav-left.gif) no-repeat top left;
+			}
+	
+
+/* Sidebar
+/* ---------------- */
+
+#sidebar {
+	color:#9c8c7f;
+}
+
+	#sidebar a:link, #sidebar a:visited, #sidebar a:active {
+		color:#bba38f;
+	}
+	
+/* Footer
+/* ----------------- */
+	
+.copyright, .powered {
+	color:#bbbbbb;
+}
+
+	#footer a:link, #footer a:visited, #footer a:active {
+		color:#dedede;
+	}
+
+	#footer a:hover {
+		color:#FFF;
+	}
+
+	
+/* 02 - MAIN STRUCTURE
+/* ----------------------------------------------*/
+
+#container {
+	background:url(rust/footer-glow.gif) no-repeat bottom center;
+}
+
+/* Background Decoration */
+
+#body-top-left {
+	background:url(rust/background.png) no-repeat top left;
+}
+
+/* 03 - HEADER
+/* ----------------------------------------------*/
+
+#logo {
+	background:url(rust/logo-back.gif) no-repeat top left;
+}
+
+#about {
+	background:url(rust/about-quote.gif) no-repeat top right;
+}
+
+/* 04 - TOP NAVIGATION
+/* ----------------------------------------------*/
+
+#top-nav {
+	background:url(rust/top-nav-back.gif) repeat-x top center;
+}
+
+#search {
+	background:url(rust/search-form-back.gif) no-repeat center left;
+}
+	
+	#search #s {
+		color:#FFF;
+	}
+	
+		#sidebar #search #s {
+			background:#412f38;
+			border:1px solid #473c40;
+		}
+	
+		#sidebar #search #go {
+			background:#412f38 url(rust/sidebar-back.jpg) repeat-x bottom center;
+			border:1px solid #473c40;
+			font:bold 1.00em Georgia, "Times New Roman", Times, serif; color:#FFF;
+		}
+		
+	#categories li ul {
+		border: 1px solid #d5b7a3;
+		border-width:0px 1px 1px;
+		background:#c9a28c;
+	}
+	
+		#categories li:hover ul li a {
+			color:#e5d6cd;
+		}
+			
+		#categories li ul li a:hover {
+			color:#FFF;
+		}
+	
+	
+/* 05 - MAIN CONTENT
+/* ----------------------------------------------*/
+
+#main-content {
+	background:url(rust/main-content-back.gif) no-repeat top center;
+}
+
+#content {
+	background:url(rust/content-bottom.gif) no-repeat bottom center;
+}
+
+/* Navigation
+/* -------------- */
+
+#navigation {
+	background:url(rust/content-top.gif) no-repeat bottom left;
+}
+			
+/* Page Meta
+/* -------------- */
+			
+#page-meta {
+	border:1px solid #cccdce; border-width:0 1px;
+	background:#dad6d8 url(rust/content-color-divider.gif) no-repeat bottom center;
+}
+	
+	
+/* Comments
+/* -------------- */
+
+#posts li #commentlist li {
+	background:#f1f1f1; border:1px solid #d3d3d3;
+}
+	
+/* Ad Block
+/* -------------- */
+
+.ad-block {
+	border:1px solid #cccdce; border-width:0 1px;
+	background:#dcd9d7 url(rust/content-color-divider.gif) no-repeat bottom center;
+}
+
+	.ad-block p {
+		background:url(rust/divider-single.gif) no-repeat top center;
+	}
+	
+/* 06 - SIDEBAR
+/* ----------------------------------------------*/
+
+#sidebar li ul, #sidebar li #calendar_wrap, #sidebar .sidebar_ul  {
+	background:#4a3a2d url(rust/sidebar-back.jpg) repeat-x bottom center;
+	border:1px solid #49403a; border-width:0 1px 1px 1px;
+}
+ #sidebar #woo_adspace .sidebar_ul {background-image: url(rust/sidebar-top.gif); background-repeat: no-repeat!important; background-position: center top!important;}      
+		
+.lifestream-post {
+	background:url(rust/lifestream-arrow.gif) no-repeat top left;
+}
+				
+	.lifestream-post p {
+		background:#523e30 url(rust/lifestream-post-bottom.gif) no-repeat bottom center;
+		color:#9c8c7f;
+	}
+					
+		.lifestream-post p a:link, .lifestream-post p a:visited, .lifestream-post p a:active {
+			color:#bba38f;
+		}
+	
+/* 07 - FOOTER
+/* ----------------------------------------------*/
+
+#footer {
+	background:url(rust/footer.gif) no-repeat top center;
+}
+
+.flickr_badge_image {background: #33281F; border-color: #644E3E;}

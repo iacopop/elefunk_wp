@@ -1,0 +1,28 @@
+a { color: #25698d; }
+a:hover{ color: #c9e7f8; }
+
+body{ background: #f4f9fb url(iceblue/bgr.jpg) repeat-x top; }
+#header h1 { background: url(iceblue/logo-trans.png) no-repeat; }
+#search{ background: url(iceblue/bgr-search.gif) no-repeat; }
+
+.subscribe{	color: #ffffff; float:right;}
+.subscribe a { color: #c9e7f8; }
+.nav1 a { color: #ffffff; }
+.nav1 li.active a, .nav1 li a:hover, .current_page_item a {	color: #c9e7f8; }
+#topmenu li{ border-left: 1px solid #e6e6e6; }
+#topmenu li a {	color: #222222; }
+#topmenu li a:hover,#topmenu li.active a { color: #FFFFFF; background:#25698d; }
+#nav li ul li { background: #c9e7f8; border-bottom:1px solid #e6e6e6; border-left:1px solid #e6e6e6; border-right:1px solid #e6e6e6; }
+
+#footer { background:#e4e2db url(iceblue/bgr-footer.gif) repeat-x; }	
+#footer, #footer a{	color: #777777; }
+
+.box, .widget {	background: #FFFFFF url(../images/bgr-box-trans.png) repeat-x top left; }
+.box2 {	background: #ffffff url(../images/bgr-box-trans.png) repeat-x top left; }
+.box2 .spacer.white, .list2 li { background: #f5f5f5; }
+
+.vidtabs .idTabs li a, .idTabs li a { background:#ffffff; color:#363636; }
+.vidtabs .idTabs li a:hover, .vidtabs .idTabs .selected, .idTabs li a:hover, .idTabs .selected, #sidebar h3 { background:#c9e7f8; }
+
+span.continue-archives a { color:#777777; }
+

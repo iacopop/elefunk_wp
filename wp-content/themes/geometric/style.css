@@ -1,0 +1,672 @@
+/*  
+Theme Name: Geometric
+Version: 2.0.0
+Description: Designed by <a href="http://www.adii.co.za">Adii Rockstar</a>.
+Author: WooThemes
+Author URI: http://www.woothemes.com
+*/
+
+/* Setup */
+
+body {
+	font-family: Georgia, "Times New Roman", serif;
+	color: #fff;
+}
+
+/* Header */
+
+#header {
+	margin: 20px 0;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+#slogan {
+	display: inline-block;
+	width: 100%;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 16px;
+}
+
+#slogan span {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+#header h1 {
+	display: none;
+}
+
+#header #logo {
+	margin: 0px auto;
+	padding: 0 0 5px;
+}
+
+#nav {
+	text-align: center;
+	height: 38px;
+	line-height: 38px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#nav ul li {
+	margin: 0 20px 0 0;
+	display: inline;
+	line-height: 38px;
+}
+
+/* Content General */
+
+#content .title {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	height: 26px;
+	line-height: 26px;
+	width: 685px;
+	padding: 0 0 0 15px;
+	margin: 0 0 15px;
+}
+
+#content .title h3 {
+	float: left;
+	display: inline;
+}
+
+#content .title .rss {
+	float: right;
+	display: inline;
+	padding: 5px 10px 0 0;
+}
+
+/* Blog */
+
+#blog_small {
+	margin: 0 0 20px;
+}
+
+.post .category {
+	padding: 0 10px 0 15px;
+	height: 26px;
+	line-height: 26px;
+	float: right;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.post h2 {
+	font-size: 26px;
+	margin: 15px 0 10px;
+}
+
+#blog_small .post h2 {
+	font-size: 20px;
+	margin: 15px 0 10px;
+}
+
+.post .meta {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin: 0 0 15px 0;
+}
+
+#blog_small .post .meta {
+	margin: 10px 0 15px 0;
+}
+
+.post .meta .comments {
+	margin: 0 0 0 20px;
+	padding: 0 0 0 20px;
+	display: inline-block;
+}
+
+#blog_small .more {
+	padding: 0 15px 0 10px;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+#post_navigation {
+	margin: 0 0 20px 0;
+}
+
+#post_navigation #prev a {
+	padding: 0 10px 0 15px;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+#post_navigation #next a {
+	padding: 0 15px 0 10px;
+	height: 26px;
+	line-height: 26px;
+	float: right;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+
+/* Blog Entry Styles */
+
+.entry {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.entry p {
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0 0 15px 0;
+}
+
+.post .entry h1, .post .entry h2, .post .entry h3, .post .entry h4, .post .entry h5 {
+	font-family: Georgia, "Times New Roman", serif !important;
+	margin: 0 0 15px !important;
+}
+
+.post .entry h1 {
+	font-size: 24px;
+}
+
+.post .entry h2 {
+	font-size: 22px;
+}
+
+.post .entry h3 {
+	font-size: 20px;
+}
+
+.post .entry h4 {
+	font-size: 18px;
+}
+
+.post .entry h5 {
+	font-size: 16px;
+}
+
+.post .entry pre {
+	margin: 0 0 15px 15px;
+}
+
+.post .entry code {
+	font-family: Courier, sans-serif !important;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.post .entry ul, .post .entry ol  {
+	margin: 0 0 15px 25px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.post .entry ul li {
+	list-style: disc;
+	line-height: 20px;		
+}
+
+.post .entry ol li {
+	list-style: decimal;
+}
+
+.post .entry blockquote {
+	margin: 0 0 15px 10px;
+	padding: 0 0 0 40px;
+	font-style: italic;
+}
+
+/* Blog Entry Styles - Images */
+
+.wp-caption {
+	text-align: center;
+	padding: 0 0 5px;
+}
+
+.wp-caption img {
+	padding: 5px;
+}
+
+.wp-caption-text {
+	margin: 10px 0 0;
+	padding: 0;
+}
+
+.wp-caption .wp-caption-text, .wp-caption .wp-caption-dd {
+	font-size:12px !important;
+	text-align: center; 
+	margin: 0;
+	padding: 0;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.alignright {
+	margin: 0 0 15px 20px;
+	display: inline;
+	float: right;
+	}
+
+.alignleft {
+	margin: 0 20px 15px 0;
+	display: inline;
+	float: left;
+	}
+
+img.wp-smiley  {
+	padding: 0;
+	border: none;
+}
+
+/* Portfolio */
+
+#portfolio {
+	margin: 0 0 5px;
+}
+
+.portfolio_item h2 {
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin: 0 0 10px 0;
+}
+
+.portfolio_item h2 a {
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.portfolio_thumb {
+	padding: 10px;
+	margin: 0 0 15px;
+}
+
+.portfolio_details h2 {
+	font-size: 20px;
+}
+
+.portfolio_details h2 a {
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.portfolio_details .entry p {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#detail_links {
+	float: right;
+	padding: 0 0 0 15px;
+	margin: 0 0 15px 15px;
+}
+
+/* Comments */
+
+#comments {
+	margin: 15px 0 0;
+}
+
+#comments .title {
+	margin: 0 0 1px 0 !Important;
+}
+
+.commentlist .comment {
+	display: block;
+	padding: 15px;
+}
+
+.commentlist .comment-author {
+	font-size: 18px;
+	margin: 0 0 10px;
+}
+
+.commentlist .comment-author a {
+	text-decoration: none;
+}
+
+.commentlist .comment-author a:hover {
+	text-decoration: underline;
+}
+
+.commentlist .comment-meta {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin: 0 0 15px 0;
+}
+
+.commentlist .avatar {
+	float: right;
+	padding: 5px;
+}
+
+.commentlist p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0 0 15px;
+}
+
+.commentlist .reply {
+	display: block;
+}
+
+.commentlist .reply a {
+	line-height: 14px;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;	
+}
+
+#respond {
+	margin-top: 10px;
+}
+
+#respond h3 {
+	padding: 9px 7px;
+	margin: 0 0 15px 0;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#commentform p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin: 0 0 15px 0;
+}
+
+#commentform #author, #commentform #email, #commentform #url, #commentform #comment {
+	padding: 5px;
+	margin: 0 0 10px;
+	border: none;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: Helvetica, Arial, sans-serif;	
+}
+
+#commentform #submit
+ {
+	padding: 9px 7px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", serif;
+	border: none;	
+}
+
+#commentform label {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin: 0 0 0 15px;
+}
+
+/* Comments - Thread */
+
+.commentlist .depth-2 .reply, .commentlist .depth-3 .reply, .commentlist .depth-4 .reply, .commentlist .depth-5 .reply  {
+	margin: 0 0 15px 0;
+}
+
+/* Personal - About & Social Profiles */
+
+#personal {
+	margin: 0 0 20px;
+}
+
+#personal .title {
+	width: 325px;
+}
+
+#content .alt-title {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	height: 26px;
+	line-height: 26px;
+	width: 330px;
+	padding: 0 0 0 10px;
+	margin: 0;
+}
+
+#about .entry {
+	font-family: Helvetica, Arial, sans-serif !important;
+	font-size: 12px !important;
+	line-height: 18px !important;
+}
+
+#social .entry ul li {
+	float: left;
+	display: inline;
+	margin: 0;
+	padding: 15px 0;
+	width: 50%;
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#social .entry ul li a {
+	padding: 0 0 0 25px;
+	text-decoration: none;
+}
+
+/* Social Icons */
+
+.icon-delicious {
+	background: url("images/icons/delicious.png") no-repeat 0 50% !important;
+}
+
+.icon-digg {
+	background: url("images/icons/digg.png") no-repeat 0 50% !important;
+}
+
+.icon-facebook {
+	background: url("images/icons/facebook.png") no-repeat 0 50% !important;
+}
+
+.icon-flickr {
+	background: url("images/icons/flickr.png") no-repeat 0 50% !important;
+}
+
+.icon-lastfm {
+	background: url("images/icons/lastfm.png") no-repeat 0 50% !important;
+}
+
+.icon-linkedin {
+	background: url("images/icons/linkedin.png") no-repeat 0 50% !important;
+}
+
+.icon-twitter {
+	background: url("images/icons/twitter.png") no-repeat 0 50% !important;
+}
+
+.icon-youtube {
+	background: url("images/icons/youtube.png") no-repeat 0 50% !important;
+}
+
+.icon-stumble {
+	background: url("images/icons/stumbleupon.png") no-repeat 0 50% !important;
+}
+
+/* Ads */
+
+#advert_125x125 {
+	padding: 10px 9px;
+	margin: 0 0 20px;
+	float: left;
+}
+
+#advert_125x125 img {
+	padding: 0 4px;
+}
+
+/* Sidebar */
+
+#sidebar {
+	width: 240px;
+}
+
+.widget {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0 0 5px 0;	
+}
+
+.widget h2 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	height: 26px;
+	line-height: 26px;
+	width: 230px;
+	padding: 0 0 0 10px;
+	margin: 0 0 15px;
+}
+
+.widget ul li {
+	margin: 0 0 15px;
+}
+
+.widget ul li a {
+	padding: 0 0 0 35px;
+}
+
+.widget_text {
+	margin: 0 0 20px;
+}
+
+/* Specific Widgets */
+
+#flickr_widget .flickr_badge_image {
+	float: left;
+	margin: 0 5px 5px 0;
+}
+
+#social_widget ul li a {
+	line-height: 18px;
+	display: inline-block;	
+}
+
+#twitter_widget ul li {
+	padding: 0 0 0 35px;
+}
+
+#twitter_widget ul li a {
+	padding: 0 0 0 0 !important;
+}
+
+#twitter_widget ul li a:hover {
+	text-decoration: underline;
+}
+
+#twitter_widget ul li span {
+	margin: 0 10px 0 0;
+}
+
+#twitter_widget .twitter_icon {
+	background: url("images/icons/twitter.png") no-repeat 0 50% !important;
+}
+
+#tagcloud_widget {
+	margin: 0 0 15px 0;
+}
+
+#tagcloud_widget a {
+	padding: 0 5px 0 0;
+}
+
+#search_widget {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	height: 26px;
+	line-height: 26px;
+	width: 240px;
+	padding: 0;
+	margin: 0 0 25px;
+}
+
+#search_widget .field {
+	float: left;
+	margin: 0 !important;
+	padding: 4px 0 4px 10px !important;	
+	height: 18px;
+	border: none;
+	font-size: 12px;	
+	width: 150px;
+}
+
+#search_widget .search_btn {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: Georgia, "Times New Roman", serif;
+	padding: 4px 0 0 10px;
+}
+
+/* Footer */
+
+#footer {
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 20px 0 0;
+	padding: 15px 0;
+}
+
+#footer span {
+	font-style: italic;
+	text-transform: none !important;
+	margin: 0 0 0 25px;
+}
+
+.footer_nav ul {
+	margin: 0 0 15px 0;
+}
+
+.footer_nav ul li {
+	display: inline;
+	margin: 0 15px 0 0;
+	text-transform: uppercase !Important;
+	font-size: 12px;
+	font-style: normal !important;
+}
+
+/* Misc */
+
+.fix {
+	clear: both;
+	height: 1px;
+	margin: -1px 0 0;
+}
+
+/* IE6 Hacks */
+
+* html #content {
+	margin-left: 0px !important;
+}
+
+* html #search_widget .search_btn, *:first-child+html #search_widget .search_btn {
+	padding-left: 0px !important;
+}

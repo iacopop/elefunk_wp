@@ -1,0 +1,217 @@
+/* abstract on creme style */
+
+html, body {
+	color: #e2faf6;
+}
+
+
+body {
+	background: url(grey/bg_pattern.png);
+	background-color:#333333;
+}
+
+#wrap-out {
+	background-image: url(grey/bg_shape.jpg);
+}
+
+#wrap {
+	background-image: url(grey/bg_flower_top-trans.png);
+}
+
+a {
+	color: #86dbc5;
+}
+
+h2.arh {
+	background-image:url(grey/bg_post_bottom.jpg);
+}
+
+#sidebar h2 {
+	color:#EA7B3A;
+}
+
+blockquote {
+	border-color: #c0e453;
+	color: #d8f381;
+}
+
+blockquote blockquote {
+	border-color: #B78470;
+	color: #A06750;
+}
+
+#top #menu li a {
+	color:#86DBC5;
+}
+
+#top #menu li a:hover {
+	background-image:url(grey/bg_footer.jpg);
+	color:#75D5B9;
+}
+
+#top #menu li.current_page_item a {
+	border-color:#ADCB56;
+	color:#ADCB56;
+}
+
+#top .search {
+	background-image:url(grey/bg_search_field.jpg);
+}
+
+#content img {
+	background-image:url(grey/bg_footer.jpg);
+}
+
+.from-the-blog .block .top {
+	border-color:#666666;
+}
+
+.from-the-blog img {
+	background: url(grey/bg_footer.jpg);
+}
+
+.from-the-blog .block .top p {
+	color:#ffffff;
+}
+
+.from-the-blog .block p a {
+	color:#9AE53B !important;
+}
+
+.post .top h2 a {
+	color: #DDF432;
+}
+
+.post .top h2 a:hover {
+	color: #aed238;
+}
+
+.post p.post-details {
+	color: #cccccc;
+}
+
+.post p.post-details a {
+	color: #bbe34e;
+}
+
+.post p.post-details a:hover {
+	color: #c8f8b9;
+}
+
+.post .top {
+	border-color:#666666;
+}
+
+.post-body ul li {
+	background-image: url(grey/bg_star.png);
+}
+
+.post-body img, .wp-caption {
+	background-image:url(grey/bg_footer.jpg);
+}
+
+.post-bottom {
+	background-image:url(grey/bg_post_bottom.jpg);
+	border-color:#666666;
+	color:#cccccc;
+}
+
+.post-bottom a {
+	color:#9ae53b;
+}
+
+.post-bottom a:hover {
+	color:#79E3C6;
+}
+
+.more-entries {
+	border-color: #8ECBCB;
+}
+
+.more-entries h2 a:hover {
+	color:#34b7a4;
+}
+.more-entries h2 a {
+	color:#85e0c4;
+}
+
+.comment .top {
+	color:#ffffff;
+}
+
+.comment .top a {
+	color:#9AE53B;
+}
+
+.comment .top a:hover {
+	color:#9AE53B;
+	text-decoration:underline;
+}
+
+#comments #cwrap {
+	background-image:url(grey/bg_comment_form.jpg);
+	border-color:#101010;
+}
+
+#comments #cwrap label {
+	color: #999999;
+	background-image: url(grey/bg_input_field.gif);
+}
+
+#comments #cwrap label.ta {
+	background-image: url(grey/bg_textarea.gif);
+}
+
+#comments .comment {
+	border-color:#101010;
+}
+
+
+#sidebar ul li {
+	background-image: url(grey/bg_sidebar_li.png);
+}
+
+#sidebar .featured li {
+	border-color:#475F56;
+}
+
+#sidebar ul li:hover {
+	background-image: url(grey/bg_sidebar_li.png);
+}
+
+#sidebar .featured span {
+	color: #cccccc;
+}
+
+#sidebar .featured span a {
+	color: #BBE34E;
+}
+
+#sidebar .featured span a:hover {
+	color: #c8f8b9;
+}
+
+.photos img {
+	background-image:url(grey/bg_footer.jpg);
+}
+
+#wp-calendar caption {
+	background-image: url(grey/bg_footer.jpg);
+	color: #ADCB56;
+}
+
+#footer-out {
+	background: url(grey/bg_footer.jpg);
+}
+
+#footer .subscribe form div {
+	background-image:url(grey/bg_subscribe_field.jpg);
+}
+
+#copyright-out {
+	background-color:#30bd9b;
+}
+
+#copyright {
+	color:#1d1d1d;
+}

@@ -1,0 +1,51 @@
+*** Groovy Video Changelog ***
+
+2009.08.05 - version 2.0.0
+  * /functions/ - New WooThemes Framework (V1.0.4) (core theme functions)
+     functions.php
+  * includes/theme-comments.php - Moved from /functions/
+     includes/theme-functions.php
+     includes/theme-js.php
+     includes/theme-options.php
+     includes/theme-widgets.php
+     includes/sidebar-init.php
+  * includes/theme-options.php - Added new general & dynamic images options
+  * header.php - Fixed checkbox options ( $var == 'true' instead of just $var )
+    /ads/ad_125.php
+    /ads/content_ad.php    
+    index.php
+    sidebar.php
+  * index.php - Added echo before woo_get_embed()
+    single.php
+
+2009.07.23 - version 1.0.9
+ * functions/admin-functions.php - Removed PageNavi plugin. Download the plugin from: http://wordpress.org/extend/plugins/wp-pagenavi/
+ * functions.php - Added function to print pagenavi.css 
+ * styles/pagenavi.css - *NEW* Added file to style the PageNavi plugin.
+
+2009.06.11 - version 1.0.8
+ * functions.php - Upgrade (get_categories fix)
+
+2009.05.18 - version 1.0.7
+* comments.php - fixed bug with closed comments
+
+2009.04.28 - version 1.0.6
+* header.php - fixed extra " in custom logo line
+
+2009.04.12 - version 1.0.5
+* functions/admin-functions.php - Show image when image resizer is disabled
+
+2009.04.08 - version 1.0.4
+* functions/admin-functions.php - Fixed the embed code resizer for pre WP 2.7 installations
+
+2009.04.06 - version 1.0.3
+* functions.php - added missing function for pre WP 2.7 comments-legacy.php
+
+2009.03.25 - version 1.0.2
+* includes/widgets.php - Added option in Subscribe widget settings to use Google Feedburner URi
+
+2009.03.25 - version 1.0.1
+* includes/widgets.php - Fixed feedburner ID and email submiting not working.
+
+2009.03.17 - version 1.0
+* First release!

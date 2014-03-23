@@ -1,0 +1,8 @@
+/* turquoise style */
+
+body { background: url(turquoise/bg-tile.jpg) repeat top center; }
+#wrap {	background: url(turquoise/bg.jpg) repeat-x top center; }
+a { color: #75c5ae; }
+#archive .box2 .post-details, #main p.post-details, #comments ol.commentlist .comment-meta a {color:#698d83;}
+#bottom .subscribe .rss { background: url(turquoise/ico-subscribe.png) no-repeat center left; }
+#bottom #recentcomments li { background:transparent url(turquoise/ico-comment.png) no-repeat scroll left center; }

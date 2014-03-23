@@ -1,0 +1,65 @@
+#pagenav li {
+	line-height: 27px;
+	margin-top: -3px;
+}
+
+#pagenav li a:link, #pagenav li a:visited {
+	padding: 6px 8px 5px 8px;
+}
+
+
+#nav ul li a:hover span.left, #nav ul li.current_page_item a:link span.left , #nav ul li.current_page_item a:visited span.left  {
+	top: 0px;
+	left: -12px;
+}
+
+#nav ul li a:hover span.right, #nav ul li.current_page_item a:link span.right, #nav ul li.current_page_item a:visited span.right  {
+	top: 0px;
+	right: 4px;
+	background-color: transparent!important;
+}
+
+#pagenav li ul li  {
+	line-height: 35px;
+}
+
+.container_12  {
+	padding-left: 9px!important;
+	padding-right: 1px!important;
+}
+
+#featured  {
+	margin-left: 5px;
+}
+
+#main_content  {
+	margin-left: 5px;
+}
+
+.post_head  {
+	margin: 0 0 0px 0;
+}
+
+.post_head .comments span.bg  {
+	margin: -3px 10px 0 10px;
+}
+
+#newsletter .field, #feedburner .field , #campaignmonitor .field {
+	margin: 0;
+}
+
+#search input#s  {
+	margin: 0;
+}
+
+#footer .footnav ul  {
+	padding-top: 35px;
+}
+
+#footer .copyright  {
+	padding-top: 13px;
+}
+
+#slider .scroll {
+	width: 940px;
+}

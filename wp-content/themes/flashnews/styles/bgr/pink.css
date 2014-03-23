@@ -1,0 +1,9 @@
+body { 
+	background: #e7dae9 url(bgr-pink.gif) repeat-x top; 
+}
+#header{
+	background: url(header-bgr-pink.gif) no-repeat top;
+}
+#page-bot{
+	background: url(page-bot-pink.gif) no-repeat top;
+}

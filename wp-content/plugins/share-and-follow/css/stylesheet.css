@@ -1,0 +1,32 @@
+/* cssid=37                            */   
+/* WARNING!! this file is dynamicaly generated changes will  */ 
+/* be overwritten with every change to the admin screen.      */ 
+/* You can add css to this file in the admin screen.       */ 
+
+.socialwrap li.icon_text a img, .socialwrap li.iconOnly a img, .followwrap li.icon_text a img, .followwrap li.iconOnly a img{border-width:0 !important;background-color:none;}#follow.bottom {width:100%; position:fixed; left:0px; bottom:0px;background-color:#878787;font-family:impact,charcoal,arial, helvetica,sans-serif;border:2px solid #fff;border-width:2px 0 0 0;}
+#follow.bottom ul {padding:0 0 0 20px; margin:0; list-style-type:none !important;font-size:24px;color:black;}
+#follow.bottom ul li {margin-left:4px;padding-bottom:10px;list-style-type:none !important; display:inline;}#follow.bottom ul li.follow {color:#000;}
+#follow.bottom ul li a {margin-right:; background-image:none !important}
+#follow.bottom ul li.text_replace a {color:white;text-decoration:none;}
+#follow.bottom ul li.text_replace a:hover {color:black}.share {margin:0 3px 3px 0;}
+.phat span {display:inline;}
+ul.row li {float:left;list-style-type:none;}
+li.iconOnly a span.head {display:none}
+#follow.left ul.size16 li.follow{margin:0px auto !important}
+li.icon_text a {padding-left:0;margin-right:3px}
+li.text_only a {background-image:none !important;padding-left:0;}
+li.text_only a img {display:none;}
+li.icon_text a span{background-image:none !important;padding-left:0 !important; }
+li.iconOnly a span.head {display:none}
+ul.socialwrap li {margin:0 3px 3px 0 !important;}
+ul.socialwrap li a {text-decoration:none;}ul.row li {float:left;line-height:auto !important;}
+ul.row li a img {padding:0}.size16 li a,.size24 li a,.size32 li a, .size48 li a, .size60 li a {display:block}ul.socialwrap {list-style-type:none !important;margin:0; padding:0;text-indent:0 !important;}
+ul.socialwrap li {list-style-type:none !important;background-image:none;padding:0;list-style-image:none !important;}
+ul.followwrap {list-style-type:none !important;margin:0; padding:0}
+ul.followwrap li {margin-right:3px;margin-bottom:3px;list-style-type:none !important;}
+#follow.right ul.followwrap li, #follow.left ul.followwrap li {margin-right:0px;margin-bottom:0px;}
+.shareinpost {clear:both;padding-top:0px}.shareinpost ul.socialwrap {list-style-type:none !important;margin:0 !important; padding:0 !important}
+.shareinpost ul.socialwrap li {padding-left:0 !important;background-image:none !important;margin-left:0 !important;list-style-type:none !important;text-indent:0 !important}
+.socialwrap li.icon_text a img, .socialwrap li.iconOnly a img{border-width:0}ul.followrap li {list-style-type:none;list-style-image:none !important;}
+div.clean {clear:left;}
+div.display_none {display:none;}

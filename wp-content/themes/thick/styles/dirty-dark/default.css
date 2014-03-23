@@ -1,0 +1,92 @@
+/* COLOURS
+
+#45453f - Light
+#30302c - Dark
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+/* @group nav */
+
+/* NAV
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+#header #nav li a:link, #header #nav li a:visited, #header #nav li a:active {
+	background: #53534c url("../../styles/dirty-dark/images/default/nav.gif") repeat 50% 0;
+}
+
+#header #nav li a:hover {
+	background: #494943 url("../../styles/dirty-dark/images/default/nav.gif") repeat 50% 50%;
+}
+
+#header-alt #nav li.current_page_item a:link, #header-alt #nav li.current_page_item a:visited, #header-alt #nav li.current_page_item a:active, #header-alt #nav li.current_page_item a:hover {
+	background: #53534c url("../../styles/dirty-dark/images/default/nav.gif") repeat 50% 50%;
+}
+
+#header-alt #photos h2 {
+	color: #8e8e83;
+}
+
+#header #status strong {
+	color: #53534c;
+}
+
+/* @end */
+
+/* @group content */
+
+/* CONTENT
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+.content h2 {
+	color: #c1c1b7;
+}
+
+.content h2 a:link, .content h2 a:visited, .content h2 a:active {
+	color: #c1c1b7;
+}
+
+.content h2 a:hover {
+	color: #fbf7e4;
+}
+
+.content h2.heading {
+	background: url("../../styles/dirty-dark/images/default/heading-bg.jpg") no-repeat 0 0;
+}
+
+.content h3 a:link, .content h3 a:visited, .content h3 a:active {
+	color: #c1c1b7;
+}
+
+.content h3 a:hover {
+	color: #fbf7e4;
+}
+
+.content #comments h2.heading, .content #comment-form h2.heading {
+	background: url("../../styles/dirty-dark/images/default/heading-comments-bg.jpg") no-repeat 0 0;
+}
+
+/* @end */
+
+/* @group sidebars */
+
+/* SIDEBARS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+#categories li.current_page_item-cat {
+	color: #c1c1b7;
+	background: url("../../styles/dirty-dark/images/default/category-bg.jpg") no-repeat 0 0;
+}
+
+#leftbar .widget h2 {
+	background: url("../../styles/dirty-dark/images/default/heading-leftbar-bg.jpg") no-repeat 0 0;
+}
+
+#sidebar .widget h2, #header .widget h2 {
+	background: url("../../styles/dirty-dark/images/default/heading-sidebar-bg.jpg") no-repeat 0 0;
+}
+
+#media-widget.widget h2 {
+	color: #c1c1b7;
+}
+
+/* @end */

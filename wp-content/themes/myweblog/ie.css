@@ -1,0 +1,22 @@
+/* FOR IE */
+* html .categories {
+
+                width: 105px;
+            }
+            
+* html #body-top-left { background: transparent none!important;}
+
+* html #container .wp-pagenavi a:link,
+* html #container .wp-pagenavi a:visited,
+* html #container .wp-pagenavi a:active,
+* html #container .wp-pagenavi span.current,
+* html #container .wp-pagenavi span.extend { display: inline;}
+
+* html #container .wp-pagenavi a:hover,
+* html #container .wp-pagenavi span.current {
+    display: inline;
+     }
+
+
+* html .pagination .alignright,
+* html .pagination .alignleft {   margin-top: 10px; }

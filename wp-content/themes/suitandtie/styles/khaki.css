@@ -1,0 +1,380 @@
+/*-----------------------------------------------
+
+INDEX:
+
+1. SETUP
+-1.1 Defaults
+-1.2 Hyperlinks
+
+2. SITE STRUCTURE & APPEARANCE
+-2.1 Containers
+-2.2 Header
+-2.3 Navigation
+--2.3.1 Drop-down navigation
+-2.4 Featured-slider
+-2.5 Blog and Page sub-header
+-2.6 Content
+-2.7 Sidebar
+-2.8 Footer
+
+3. WIDGETS
+
+4. POSTS
+-4.1 Typographic Elements
+-4.2 Images
+-4.3 Captions
+
+5. COMMENTSAREA
+-5.1 Comments
+-5.2 Comments Form
+
+6. GENERAL STYLES
+
+-----------------------------------------------*/
+
+
+
+/*-----------------------------*/
+/* 1. SETUP */
+/*-----------------------------*/
+
+/* 1.1 Defaults */
+
+body  {
+	color: #333;
+	background: #c3b176 url(khaki/bgtile.jpg) repeat-x left top;
+}
+
+h1, h2, h3, h4, h5, h6  {
+	color: #489690;
+}
+
+/* 1.2 Hyperlinks */
+
+a:link, a:visited  {	color: #489690; }
+
+h1 a:link, h1 a:visited, h2 a:link, h2 a:visited, h3 a:link, h3 a:visited,
+h4 a:link, h4 a:visited, h5 a:link, h5 a:visited, h6 a:link, h6 a:visited  {
+	color: #489690;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover  {}
+
+/*-----------------------------*/
+/* 2. SITE STRUCTURE & APPEARANCE */
+/*-----------------------------*/
+
+/* 2.1 Containers */
+
+#wrap  {
+	background: url(khaki/bgglow.jpg) no-repeat center top;
+}
+
+/* 2.2 Header */
+
+#header-border  {
+	background: url(khaki/border.png) repeat left top;
+}
+
+#header  {
+	background-color: #fff;
+}
+
+/* 2.3 Navigation */
+
+#pagenav  {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#pagenav li a:link, #pagenav li a:visited  {
+	color: #cccccc;
+}
+
+#pagenav li a:hover span, #pagenav li.current_page_item a span  {
+	background: url(khaki/navhover_b.jpg) repeat-x left top;
+}
+
+#pagenav li a:hover, #pagenav li.current_page_item a  {
+	color: #fff;
+	background: url(khaki/navhover_a.jpg) repeat-x left top;
+}
+
+	/* 2.3.1 Style drop down list */
+
+	#pagenav li ul li {
+		border-bottom: 1px solid #e5e5e5;
+	}
+	
+	#pagenav li ul li a:hover {
+		background: #5fa7a1 !important;
+	}	
+
+	/* first level */
+
+		#pagenav li ul {
+			background-color: #fff;
+			border: 1px solid #e5e5e5;
+		}
+		
+	#pagenav li.current_page_item li a:link,
+	#pagenav li.current_page_item li a:visited	{
+		color: #ccc;
+	}
+	
+	#pagenav li.current_page_item li a:hover  {
+		color: #fff;
+	}	
+
+/* 2.4 Featured-slider */
+
+#featured-slider h2  {
+	color: #fff;
+}
+
+#featured-slider p  {
+	color: #fff;
+}
+
+#featured-slider a:link, #featured-slider a:visited  {
+	color: #fff;
+}
+
+#slider-nav  {
+	background: url(khaki/slidernavbg.png) repeat left top;
+}
+
+/* 2.5 Blog and Page sub-header */
+
+#blog-heading p  {
+	color: #fff;
+}
+
+#blog-heading a:link, #blog-heading a:visited  {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#blog-heading .title span  {
+	color: #fff;
+}
+
+#blog-heading .title h2  {
+	color: #fff;
+}
+
+#page-heading p  {
+	color: #fff;
+}
+
+#page-heading a:link, #page-heading a:visited  {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#page-heading .title span  {
+	color: #a0d1a1;
+}
+
+#page-heading .title h2  {
+	color: #fff;
+}
+
+#breadcrumbs  {
+	background: url(khaki/slidernavbg.png) repeat left top;
+}
+
+#breadcrumbs p a:link, #breadcrumbs p a:visited  {
+	color: #fff;
+}
+
+/* 2.6 Content */
+
+#content-border  {
+	background: url(khaki/border.png) repeat left top;
+}
+
+#content  {
+	background-color: #fff;
+}
+
+#content-tile  {
+	background: #fff url(khaki/contenttile.jpg) repeat-y left top;
+}
+
+/* 2.7 Sidebar */
+
+#sidebar  {
+	color: #666;
+}
+
+#sidebar h3  {
+	color: #ff2c2b;
+}
+
+/* 2.8 Footer */
+
+#footer  {
+	color: #fff;
+	background: url(khaki/slidernavbg.png) repeat left top;
+}
+
+#footer a:link, #footer a:visited  {
+	color: #fff;
+}
+
+/*-----------------------------*/
+/* 3. WIDGETS */
+/*-----------------------------*/
+
+.widget span.description  {
+	color: #489690;
+}
+
+.widget ul li  {
+	border-bottom: 1px solid #ebdeed;
+	background: url(khaki/widget_bullet.gif) no-repeat 10px center;
+}
+
+.widget ul li:hover  {
+	background-color: #ebdeed;
+}
+
+#news-widget .item .date  {
+	color: #000;
+}
+
+#entries-widget .item .date  {
+	color: #000;
+}
+
+#comments-widget .item  {
+	border-bottom: 1px solid #ebdeed;
+}
+
+#search input.field, #feedburner input.field, #campaignmonitor input.field  {
+	border: 1px solid #d9d9d9;
+}
+
+#search input.button, #feedburner input.button, #campaignmonitor input.button  {
+	border: 1px solid #d9d9d9;
+}
+
+#flickr .pics .flickr_badge_image img  {
+	border: 3px solid #ebdeed;
+}
+
+#twitter ul li  {
+	background: none;
+}
+
+/*-----------------------------*/
+/* 4. POSTS */
+/*-----------------------------*/
+
+.post.archive  {
+	border-bottom: 1px solid #ebdeed;
+}
+
+.post.archive .meta  {
+	color: #489690;
+}
+
+.post.archive .post-head .date  {
+	color: #000;
+}
+
+/* 4.1 Typographic Elements */
+
+.post h2.title  {
+
+}
+
+.post h2.title a:link, .post h2.title a:visited  {
+
+}
+
+.entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry h6  {
+	margin: 10px 0 10px 0;
+}
+
+.entry h1 a:hover, .entry h2 a:hover, .entry h3 a:hover, .entry h4 a:hover, .entry h5 a:hover, .entry h6 a:hover  {
+
+}
+
+.entry blockquote  {
+	color: #666;
+	background: url(khaki/blockquote.jpg) no-repeat 15px 3px;
+}
+
+/* 4.2 Images */
+
+.entry img  {
+	border: 1px solid #333;
+}
+
+img.wp-smiley  {
+	border: none;
+}
+
+/* 4.3 Captions */
+
+.wp-caption {
+	border-bottom: 5px solid #d9d9d9;
+}
+
+.wp-caption img {
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	color: #fff;
+	border-bottom: 2px solid #666;
+	background: url(khaki/captionbg.png) repeat left top;
+}
+
+.wp-caption p.wp-caption-text a:link, .wp-caption p.wp-caption-text a:visited {
+	color: #fff;
+}
+
+/*-----------------------------*/
+/* 5. COMMENTSAREA */
+/*-----------------------------*/
+
+/* 5.1 Comments */
+
+#comments span.count  {
+	color: #489690;
+}
+
+
+#comments li.comment  {
+	border-bottom: 1px solid #d9d9d9;
+}
+
+#comments .children li.comment  {
+	border-left: 3px solid #d9d9d9;
+	border-bottom: none;
+}
+
+#comments li.comment .gravatar img  {
+	border: 2px solid #e5e5e5;
+}
+
+/* 5.2 Comments Form */
+
+#commentform textarea  {
+	border: 2px solid #d9d9d9;
+}
+
+#author, #email, #url  {
+	border: 2px solid #d9d9d9;
+}
+
+input#submit  {
+	border: 2px solid #aaa;
+	background-color: #d9d9d9;
+}
+
+/*-----------------------------*/
+/* 6. GENERAL STYLES */
+/*-----------------------------*/

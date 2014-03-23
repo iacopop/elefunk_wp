@@ -1,0 +1,9 @@
+body { 
+	background: #021c31 url(bgr-darkblue.gif) repeat-x top; 
+}
+#header{
+	background: url(header-bgr-darkblue.gif) no-repeat top;
+}
+#page-bot{
+	background: url(page-bot-darkblue.gif) no-repeat top;
+}

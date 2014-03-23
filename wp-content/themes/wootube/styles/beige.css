@@ -1,0 +1,26 @@
+/*  beige style */
+
+/*  Images */
+body.wootube { 
+	background: #f0f1e6 url(beige/bg.gif) repeat-x 0 0;
+}
+
+/*  Colors */
+a {
+	color: #7f7f5c;
+}
+#main, #sidebar ul, #sidebar .textwidget, div#video-browser-holder{
+	border:5px solid #e3e3d7;
+}
+#sidebar h2 {
+	background: #a9a981;
+}
+#main-content .post h4.continue a {
+	background: #668d46;
+}
+#footer-out {
+	background: #61614c;
+}
+
+
+

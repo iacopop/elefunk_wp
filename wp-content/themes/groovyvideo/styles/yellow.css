@@ -1,0 +1,8 @@
+/* yellow style */
+
+body { background: url(yellow/bg-tile.jpg) repeat top center; }
+#wrap {	background: url(yellow/bg.jpg) repeat-x top center; }
+a { color: #e7e53b; }
+#archive .box2 .post-details, #main p.post-details, #comments ol.commentlist .comment-meta a {color:#8e8f6b;}
+#bottom .subscribe .rss { background: url(yellow/ico-subscribe.png) no-repeat center left; }
+#bottom #recentcomments li { background:transparent url(yellow/ico-comment.png) no-repeat scroll left center; }

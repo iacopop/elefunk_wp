@@ -1,0 +1,163 @@
+body {
+	background: #1f1c1c url(grunge/grunge_bg.jpg) no-repeat top center;
+}
+
+#tops, #bottom {
+	background: #000000;	
+}
+
+#left, #right {
+	background: #000000;	
+}
+
+/* DEFAULT ALTERNATING COLOURS */
+
+.post_bg1 { 
+	background-color:#141312;
+	border: 1px solid #080807;
+}
+.post_bg2 {
+	background-color:#141312;
+	border: 1px solid #080807;
+}
+.post_bg3 {
+	background-color:#141312;
+	border: 1px solid #080807;
+}
+.post_bg4 {
+	background-color:#141312;
+	border: 1px solid #080807;
+}
+.post_bg5 {
+	background-color:#141312;
+	border: 1px solid #080807;
+}
+.post_bg6 {
+	background-color:#141312;
+	border: 1px solid #080807;
+}
+
+/* ---- */
+
+.row_dot_border {
+	background-image: url(grunge/row_dot_border.png);
+}
+
+.page {
+	background-image: none;
+}
+
+p.subscribe {
+	color:#FFFFFF;
+}
+
+.page_block, .content .post, .commentlist li {
+	background-image: url(grunge/row_dot_border.png);
+}
+
+a, h1, h2, h3, h4, h5, h6  {
+	color:#ffffff;
+}
+
+.sidebar {
+	background-image: url(grunge/col_dot_border.png);
+}
+
+.sidebar a:hover {
+	color:#cccccc;
+}
+
+.sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6  {
+	color:#000000;
+}
+
+.widget {
+	background-image: url(../images/date_bg.png);
+	color:#FFFFFF;
+}
+
+.widget h2, .widget h3, .widget h4, .widget h5, .widget h6  {
+	color:#ffffff;
+}
+
+.widget li {
+	border-top: 1px solid #333;
+}
+
+.footer {
+	background-image: url(grunge/row_dot_border.png);
+}
+
+h1, h1 a, .single {
+	color: #ffffff;
+}
+
+p.issue a {
+	color:#f6f6f6;
+}
+
+.content p {
+	color:#ffffff;
+}
+
+.page_block h2, .footer h2, .page_block li, .footer h2, .page_block p, .footer p {
+	color:#FFFFFF;
+}
+
+.post h2 a {
+	color:#ffffff;
+}
+
+.post p {
+	color:#ffffff;
+}
+
+.footer a {
+	color:#ffffff;
+}
+
+.sponsor {
+	background-color:#000000;
+	color:#FFFFFF;
+}
+
+.sponsor h3 {
+	color:#FFFFFF;
+}
+
+.white_pointer {
+	background-image: url(grunge/white_pointer.png);
+}
+
+.black_pointer {
+	background-image: url(grunge/black_pointer.png);
+}
+
+.featured_date p, .featured_content p {
+	color:#FFFFFF;
+}
+
+.image p {
+	color: #666666;
+}
+
+.author_meta span a {
+	color: #ffffff;
+	border-bottom-color: #ffffff;
+}
+
+.navigation a {
+	color:#ffffff;
+}
+
+.comments h2, .trackbacks h2, .comment_list li, .trackbacks li {
+	border-bottom-color: #ffffff;
+}
+
+.post_meta a {
+	color:#FFFFCC;
+}
+
+.post_meta a:hover {
+	color:#FFCC33;
+}

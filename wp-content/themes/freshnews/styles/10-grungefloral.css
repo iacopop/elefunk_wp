@@ -1,0 +1,7 @@
+body { background:#e7e9e1 url(grungefloral/background-grunge.gif) no-repeat top center; }
+#background { background:url(grungefloral/bgr.jpg) repeat-x top center; }
+#nav li ul li { background: #FFFFFF url(grungefloral/bgr-box-trans.png) repeat-x top; }
+#header { background:url(grungefloral/background-grunge-top.gif) no-repeat top center; }
+.box, .widget {	background: #ffffff url(grungefloral/bgr-box-trans.png) repeat-x top left;  }
+.box2 {	background: #ffffff url(grungefloral/bgr-box-trans.png) repeat-x top left;  }
+#footer { background:#e4e2db url(grungefloral/bgr-footer.gif) repeat-x; }

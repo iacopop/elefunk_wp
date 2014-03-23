@@ -1,0 +1,26 @@
+/*  pink style */
+
+/*  Images */
+body.wootube { 
+	background: #eee6f1 url(pink/bg.gif) repeat-x 0 0;
+}
+
+/*  Colors */
+a {
+	color: #603b5b;
+}
+#main, #sidebar ul, #sidebar .textwidget, div#video-browser-holder{
+	border:5px solid #e2dae3;
+}
+#sidebar h2 {
+	background: #785373;
+}
+#main-content .post h4.continue a {
+	background: #668d46;
+}
+#footer-out {
+	background: #603b5b;
+}
+
+
+

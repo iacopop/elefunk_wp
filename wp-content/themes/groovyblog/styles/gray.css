@@ -1,0 +1,8 @@
+/* gray style */
+
+body { background: url(gray/bg-tile.jpg) repeat top center; }
+#wrap {	background: url(gray/bg.jpg) repeat-x top center; }
+a { color: #c3c828; }
+#archive .box2 .post-details, #main p.post-details, #comments ol.commentlist .comment-meta a {color:#777a58;}
+#bottom .subscribe .rss { background: url(gray/ico-subscribe.png) no-repeat center left; }
+#bottom #recentcomments li { background:transparent url(gray/ico-comment.png) no-repeat scroll left center; }

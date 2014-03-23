@@ -1,0 +1,19 @@
+a, 
+.nav2 li ul a:hover,
+.nav2 li:hover,
+.nav2 li.sfHover,
+.nav2 li.current,
+.nav2 a:focus, .nav2 a:hover, .nav2 a:active,
+#rss a:hover,
+#nav2 li a:hover,
+#nav2 li.active a,
+#columns h2,
+.sideTabs .idTabs li a:hover,
+.sideTabs .idTabs .selected,
+#columns .post h2,
+.list3 li  a em {
+	color: #FF2200;
+}
+.list1 li{
+	background: url(red/ico-star.gif) no-repeat left;
+}

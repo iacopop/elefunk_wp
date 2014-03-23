@@ -1,0 +1,124 @@
+body {
+	background-color: #111111;
+}
+
+#tops, #bottom {
+	background: #ffffff;	
+}
+
+#left, #right {
+	background: #ffffff;	
+}
+
+.row_dot_border {
+	background-image: url(paint_it_black/row_dot_border.png);
+}
+
+p.subscribe {
+	color:#FFFFFF;
+}
+
+.page_block, .content .post, .commentlist li {
+	background-image: url(paint_it_black/row_dot_border.png);
+}
+
+.sidebar {
+	background-color:#111111;
+	background-image: url(paint_it_black/col_dot_border.png);
+}
+
+.page_block {
+	background-image: url(paint_it_black/row_dot_border.png);
+}
+
+a, h1, h2, h3, h4, h5, h6  {
+	color:#ffffff;
+}
+
+.footer {
+	background-image: url(paint_it_black/col_dot_border.png);
+}
+
+h1, .single {
+	color: #ffffff;
+}
+
+h1 a {
+	color: #ffffff;
+}
+
+p.issue a {
+	color:#e5e5e5;
+}
+
+.content p, .content li {
+	color:#e5e5e5;
+}
+
+.page_block h2, .footer h2, .page_block li {
+	color:#FFFFFF;
+}
+
+.page_block a {
+	color:#AEDAEE;
+}
+
+
+.post h2 a {
+	color:#ffffff;
+}
+
+.post p, .post li {
+	color:#e5e5e5;
+}
+
+.footer a {
+	color:#FFFFFF;
+}
+
+.widget {
+	background-color: #222222;
+	color:#FFFFFF;
+}
+
+.widget li {
+	border-top: 1px solid #111111;
+}
+
+.sponsor {
+	background-color:#222222;
+	color:#ffffff;
+}
+
+.sponsor h3 {
+	color:#FFFFFF;
+}
+
+.featured_date p, .featured_content p {
+	color:#FFFFFF;
+}
+
+.image p {
+	color: #333333;
+}
+
+.author_meta span a {
+	color: #ffffff;
+	border-bottom-color: #ffffff;
+}
+
+.navigation a {
+	color:#ffffff;
+}
+
+.comments h2, .trackbacks h2, .comment_list li, .trackbacks li {
+	border-bottom-color: #000000;
+}
+
+.post_meta a {
+	color:#777777;
+}
+
+.post_meta a:hover {
+	color:#000000;
+}

@@ -1,0 +1,7 @@
+*** Mortar Changelog ***
+
+2009.08.06 - version 1.0
+  * First release!
+
+2009.08.06 - version 1.0
+  * First release!

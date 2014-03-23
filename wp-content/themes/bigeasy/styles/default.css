@@ -1,0 +1,321 @@
+/*
+-----------------------------------------------
+WooThemes - Textured Blog - Default scheme (solid 1)
+author: dan rubin
+edited: 2009-04-09
+----------------------------------------------- */
+
+body {
+	background:#262626 url(default/bg-body.png);
+}
+
+/* top border and shadow */
+#wrapper {
+	background:url(default/bg-wrapper.png) repeat-x;
+}
+/* bottom border and shadow */
+#wrapper2 {
+	background:url(default/bg-wrapper2.png) repeat-x bottom;
+}
+/* content background texture */
+#wrapper3 {
+	background:#10222b url(default/bg-wrapper3.png);
+	border-top-color:#142932;
+	border-top-color:rgba(255,255,255,.04);
+	border-bottom-color:#0c1a22;
+	border-bottom-color:rgba(0,0,0,.15);
+}
+
+#container {
+	background:url(default/bg-container.png) repeat-y;
+}
+
+#sidebar {
+	border-top-color:#9cb06c;
+	border-top-color:rgba(255,255,255,.1);
+}
+#sidebar-border {
+	background:#879e55;
+	background:rgba(0,0,0,.1);
+}
+
+#title a {
+	color:#f4ffda;
+}
+
+#nav li a {
+	color:#e2f0d6;
+}
+#nav li a:hover {
+	background:#7d924e;
+	background:rgba(0,0,0,.2);
+}
+#nav li.current_page_item a {
+	color:#f4ffda;
+	background:#5f7334;
+	background:rgba(0,0,0,.4);
+}
+
+/* Links */
+
+a:link, a:visited {
+    color:#6FABCB;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color:#6FABCB;
+    text-decoration: underline;
+}
+
+#sidebar a:link,#sidebar a:visited {
+    color:#E2F0D6;
+    text-decoration: none;
+}
+
+#sidebar a:hover,#sidebar a:active {
+    color:#F4FFC3;
+    text-decoration: underline;
+}
+
+
+
+
+/* modules */
+.module {
+	border-color:#2b3d46;
+	border-color:rgba(203,226,237,.2);
+}
+h2.module-title {
+	color:#475a64;
+	color:rgba(203,226,237,.3);
+}
+#sidebar .module {
+	border-color:#a7bb7a;
+	border-color:rgba(244,255,218,.2);
+}
+h2.module-title {
+	color:#b1c386;
+	color:rgba(244,255,218,.3);
+}
+#content .module h3,
+#content .module h3.entry-title,
+#content .module h3 a  {
+	color:#f4ffda;
+}
+.module p {
+	color:#f4ffda;
+}
+#content .module blockquote {
+	background-color:#0b171e;
+	background-color:rgba(0,0,0,.2);
+}
+#sidebar .module .link-ancillary a {
+	color:#bdd684;
+	background:#54672a;
+}
+#content .link-ancillary a {
+	color:#d7f1ff;
+	background:#06141b;
+}
+
+
+/* blog module */
+#content .module .entry-meta {
+	color:#52819b;
+}
+.module .entry-meta a {
+	color:#6fabcb;
+}
+.module .entry-meta a:hover {
+	color:#6fabcb;
+}
+#content .blog h2,
+#content .blog h3,
+#content .blog p,
+#content .blog ul li {
+	color:#f4ffda;
+}
+#content .blog ul li:before {
+	color:#5f94b0;
+}
+.blog a {
+	background:#06141b;
+	color:#8a9a8c;
+}
+.blog a:hover {
+	color:#f4ffda;
+}
+#content .module .readmore a {
+	color:#d7f1ff;
+	background:#06141b;
+}
+
+
+/* blog comment form */
+#commentform label {
+	color:#5686a0;
+}
+#author,
+#email,
+#url,
+textarea#comment {
+	color:#f4ffda;
+	border-color:#172c36;
+	background:#0c1a22;
+	background:rgba(0,0,0,.15);
+}
+#comment-submit {
+	color:#5686a0;
+	background:#0a151a;
+	background:rgba(0,0,0,.4);
+}
+#comment-submit:hover {
+	background:#04090b;
+	background:rgba(0,0,0,.9);
+}
+#respond a  {
+	color:#264655;
+}
+#respond a:hover  {
+	color:#5686a0;
+}
+
+/* blog comments */
+ol.commentlist {
+	color:#f4ffda;
+}
+ol.commentlist li.comment {
+	background:#0c1a22;
+	background:rgba(0,0,0,.15);
+}
+ol.commentlist li.comment ul.children li {
+	border-color:#10222b;
+	background:#0a161c;
+	background:rgba(0,0,0,.15);
+}
+ol.commentlist .gravatar img {
+	border-color:#172c36;
+}
+#content ol.commentlist .author-info h3,
+#content ol.commentlist .author-info h3 a {
+	color:#5686a0;
+}
+ol.commentlist .author-info p {
+	color:#264655;
+}
+ol.commentlist li:hover .author-info p {
+	color:#5686a0;
+}
+ol.commentlist li:hover li .author-info p {
+	color:#264655;
+}
+ol.commentlist li li:hover .author-info p {
+	color:#5686a0;
+}
+ol.commentlist .author-info .comment-type a {
+	color:#264655;
+}
+ol.commentlist .author-info .comment-type a:hover {
+	color:#5686a0;
+}
+
+
+/* recent work / portfolio module */
+.portfolio-title,
+.portfolio.casestudy .portfolio-zoom {
+	background:#041017;
+	background:rgba(0,13,19,.7);
+	color:#d7f1ff;
+}
+a:hover .portfolio-title,
+.portfolio.casestudy:hover .portfolio-zoom {
+	background:#000313;
+	background:rgba(0,13,19,.8);
+}
+.portfolio-readmore {
+	color:#97adb9;
+}
+
+
+/* search */
+#search input {
+	background:#4b5d22;
+	background:rgba(44,61,7,.7);
+	color:#bdd684;
+}
+#search input:hover {
+	background:rgb(44,61,7);
+	background:rgba(44,61,7,1);
+}
+#search #keywords {
+	background:#4b5d22;
+	background:rgba(44,61,7,.7);
+	color:#829752;
+}
+
+
+/* flickr */
+.flickr_badge_image a img {
+	background:#3c4428;
+	border-color:#687745;
+}
+.flickr_badge_image a:hover img {
+	border-color:#3c4428;
+}
+
+
+/* twitter */
+#twitter_update_list li {
+	color:#f4ffda;
+}
+#twitter_update_list li a {
+	color:#2c3d07;
+}
+
+/* bookmarks */
+#bookmarks li a {
+	background-color:#424d2b;
+	background-color:rgba(0,0,0,.55);
+}
+#bookmarks li a:hover {
+	background-color:#272f16;
+	background-color:rgba(0,0,0,.75);
+}
+.bookmark-date {
+	color:#bdd684;
+}
+.bookmark-title {
+	color:#f3ffd8;
+}
+.bookmark-url,
+.bookmark-meta {
+	color:#bdd684;
+}
+
+
+/* categories */
+#categories li a {
+	background-color:#051118;
+	background-color:rgba(0,0,0,.3);
+}
+#categories li a:hover {
+	background-color:#000205;
+	background-color:rgba(0,0,0,.7);
+}
+.category-title {
+	color:#5b97b7;
+}
+.category-info {
+	color:#385767;
+}
+
+
+
+/* tags */
+#tags a {
+	color:#394b54;
+}
+#tags a:hover {
+	color:#53829a;
+}
